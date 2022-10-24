@@ -1,0 +1,305 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1666602563;s:6:"expire";i:1666688963;s:4:"tags";s:33:"ccd_CAT_P,ccd_BLOCK_HTML,ccd_MAGE";}
+
+    <div class="block widget block-new-products grid">
+        <div class="block-title">
+            <strong role="heading" aria-level="2">New Products</strong>
+        </div>
+        <div class="block-content">
+            <!-- new_products_content_widget_grid-->            <div class="products-grid grid">
+                <ol class="product-items widget-new-grid">
+                                                                <li class="product-item">                        <div class="product-item-info">
+                            <div class="product-image">
+                                <a href="http://fashion.local/dark-jacket.html" class="product-item-photo">
+                                    <span class="product-image-container product-image-container-7">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://fashion.local/media/catalog/product/cache/24b69af5d025d64960cfa1721f407a4f/1/0/10252272_105n10252272-105.jpg"
+            loading="lazy"
+            width="279"
+            height="325"
+            alt="Dark&#x20;Jacket"/></span>
+</span>
+<style>.product-image-container-7 {
+    width: 279px;
+}
+.product-image-container-7 span.product-image-wrapper {
+    padding-bottom: 116.48745519713%;
+}</style><script type="text&#x2F;javascript">prodImageContainers = document.querySelectorAll(".product-image-container-7");
+for (var i = 0; i < prodImageContainers.length; i++) {
+    prodImageContainers[i].style.width = "279px";
+}
+prodImageContainersWrappers = document.querySelectorAll(
+    ".product-image-container-7  span.product-image-wrapper"
+);
+for (var i = 0; i < prodImageContainersWrappers.length; i++) {
+    prodImageContainersWrappers[i].style.paddingBottom = "116.48745519713%";
+}</script>                                </a>
+                                                                    <div class="product-item-actions">
+                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                data-post='{"action":"http:\/\/fashion.local\/checkout\/cart\/add\/uenc\/aHR0cDovL2Zhc2hpb24ubG9jYWwv\/product\/7\/","data":{"product":"7","uenc":"aHR0cDovL2Zhc2hpb24ubG9jYWwv"}}'
+                                                                type="button" title="Add to Cart">
+                                                            <span><i class="fa fa-shopping-basket"> </i></span>
+                                                        </button>
+                                                                                                                                                </div>
+                                                                                                                            <div class="actions-secondary" data-role="add-to-links">
+                                                                                                    <a href="#"
+                                                       data-post='{"action":"http:\/\/fashion.local\/wishlist\/index\/add\/","data":{"product":7,"uenc":"aHR0cDovL2Zhc2hpb24ubG9jYWwv"}}'
+                                                       class="action towishlist" data-action="add-to-wishlist"
+                                                       title="Wish List">
+                                                        <span><i class="fa fa-heart"> </i></span>
+                                                    </a>
+                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                       data-post='{"action":"http:\/\/fashion.local\/catalog\/product_compare\/add\/","data":{"product":"7","uenc":"aHR0cDovL2Zhc2hpb24ubG9jYWwv"}}'
+                                                       title="Compare">
+                                                        <span><i class="fa fa-refresh"> </i></span>
+                                                    </a>
+                                                                                            </div>
+                                                                            </div>
+                                                            </div>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Dark Jacket"
+                                       href="http://fashion.local/dark-jacket.html"
+                                       class="product-item-link">
+                                        Dark Jacket                                    </a>
+                                </strong>
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="7" data-price-box="product-id-7">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+        <span  id="old-price-7-widget-new-grid"                data-price-amount="350"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">$350.00</span></span>
+        </span>
+
+</div>
+                                                                                                    
+                                
+                            </div>
+                        </div>
+                                                                    </li><li class="product-item">                        <div class="product-item-info">
+                            <div class="product-image">
+                                <a href="http://fashion.local/fancy-t-shirt.html" class="product-item-photo">
+                                    <span class="product-image-container product-image-container-6">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://fashion.local/media/catalog/product/cache/24b69af5d025d64960cfa1721f407a4f/1/0/10253142_10510253142-105_1.jpg"
+            loading="lazy"
+            width="279"
+            height="325"
+            alt="Fancy&#x20;T-Shirt"/></span>
+</span>
+<style>.product-image-container-6 {
+    width: 279px;
+}
+.product-image-container-6 span.product-image-wrapper {
+    padding-bottom: 116.48745519713%;
+}</style><script type="text&#x2F;javascript">prodImageContainers = document.querySelectorAll(".product-image-container-6");
+for (var i = 0; i < prodImageContainers.length; i++) {
+    prodImageContainers[i].style.width = "279px";
+}
+prodImageContainersWrappers = document.querySelectorAll(
+    ".product-image-container-6  span.product-image-wrapper"
+);
+for (var i = 0; i < prodImageContainersWrappers.length; i++) {
+    prodImageContainersWrappers[i].style.paddingBottom = "116.48745519713%";
+}</script>                                </a>
+                                                                    <div class="product-item-actions">
+                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                data-post='{"action":"http:\/\/fashion.local\/checkout\/cart\/add\/uenc\/aHR0cDovL2Zhc2hpb24ubG9jYWwv\/product\/6\/","data":{"product":"6","uenc":"aHR0cDovL2Zhc2hpb24ubG9jYWwv"}}'
+                                                                type="button" title="Add to Cart">
+                                                            <span><i class="fa fa-shopping-basket"> </i></span>
+                                                        </button>
+                                                                                                                                                </div>
+                                                                                                                            <div class="actions-secondary" data-role="add-to-links">
+                                                                                                    <a href="#"
+                                                       data-post='{"action":"http:\/\/fashion.local\/wishlist\/index\/add\/","data":{"product":6,"uenc":"aHR0cDovL2Zhc2hpb24ubG9jYWwv"}}'
+                                                       class="action towishlist" data-action="add-to-wishlist"
+                                                       title="Wish List">
+                                                        <span><i class="fa fa-heart"> </i></span>
+                                                    </a>
+                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                       data-post='{"action":"http:\/\/fashion.local\/catalog\/product_compare\/add\/","data":{"product":"6","uenc":"aHR0cDovL2Zhc2hpb24ubG9jYWwv"}}'
+                                                       title="Compare">
+                                                        <span><i class="fa fa-refresh"> </i></span>
+                                                    </a>
+                                                                                            </div>
+                                                                            </div>
+                                                            </div>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Fancy T-Shirt"
+                                       href="http://fashion.local/fancy-t-shirt.html"
+                                       class="product-item-link">
+                                        Fancy T-Shirt                                    </a>
+                                </strong>
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="6" data-price-box="product-id-6">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+        <span  id="old-price-6-widget-new-grid"                data-price-amount="150"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">$150.00</span></span>
+        </span>
+
+</div>
+                                                                                                    
+                                
+                            </div>
+                        </div>
+                                                                    </li><li class="product-item">                        <div class="product-item-info">
+                            <div class="product-image">
+                                <a href="http://fashion.local/the-dress.html" class="product-item-photo">
+                                    <span class="product-image-container product-image-container-5">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://fashion.local/media/catalog/product/cache/24b69af5d025d64960cfa1721f407a4f/1/0/10253126_22010253126-220_3.jpg"
+            loading="lazy"
+            width="279"
+            height="325"
+            alt="The&#x20;Dress"/></span>
+</span>
+<style>.product-image-container-5 {
+    width: 279px;
+}
+.product-image-container-5 span.product-image-wrapper {
+    padding-bottom: 116.48745519713%;
+}</style><script type="text&#x2F;javascript">prodImageContainers = document.querySelectorAll(".product-image-container-5");
+for (var i = 0; i < prodImageContainers.length; i++) {
+    prodImageContainers[i].style.width = "279px";
+}
+prodImageContainersWrappers = document.querySelectorAll(
+    ".product-image-container-5  span.product-image-wrapper"
+);
+for (var i = 0; i < prodImageContainersWrappers.length; i++) {
+    prodImageContainersWrappers[i].style.paddingBottom = "116.48745519713%";
+}</script>                                </a>
+                                                                    <div class="product-item-actions">
+                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                data-post='{"action":"http:\/\/fashion.local\/checkout\/cart\/add\/uenc\/aHR0cDovL2Zhc2hpb24ubG9jYWwv\/product\/5\/","data":{"product":"5","uenc":"aHR0cDovL2Zhc2hpb24ubG9jYWwv"}}'
+                                                                type="button" title="Add to Cart">
+                                                            <span><i class="fa fa-shopping-basket"> </i></span>
+                                                        </button>
+                                                                                                                                                </div>
+                                                                                                                            <div class="actions-secondary" data-role="add-to-links">
+                                                                                                    <a href="#"
+                                                       data-post='{"action":"http:\/\/fashion.local\/wishlist\/index\/add\/","data":{"product":5,"uenc":"aHR0cDovL2Zhc2hpb24ubG9jYWwv"}}'
+                                                       class="action towishlist" data-action="add-to-wishlist"
+                                                       title="Wish List">
+                                                        <span><i class="fa fa-heart"> </i></span>
+                                                    </a>
+                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                       data-post='{"action":"http:\/\/fashion.local\/catalog\/product_compare\/add\/","data":{"product":"5","uenc":"aHR0cDovL2Zhc2hpb24ubG9jYWwv"}}'
+                                                       title="Compare">
+                                                        <span><i class="fa fa-refresh"> </i></span>
+                                                    </a>
+                                                                                            </div>
+                                                                            </div>
+                                                            </div>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="The Dress"
+                                       href="http://fashion.local/the-dress.html"
+                                       class="product-item-link">
+                                        The Dress                                    </a>
+                                </strong>
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="5" data-price-box="product-id-5">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+        <span  id="old-price-5-widget-new-grid"                data-price-amount="200"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">$200.00</span></span>
+        </span>
+
+</div>
+                                                                                                    
+                                
+                            </div>
+                        </div>
+                                                                    </li><li class="product-item">                        <div class="product-item-info">
+                            <div class="product-image">
+                                <a href="http://fashion.local/blue-jeans.html" class="product-item-photo">
+                                    <span class="product-image-container product-image-container-4">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://fashion.local/media/catalog/product/cache/24b69af5d025d64960cfa1721f407a4f/5/1/51531006_80151531006-801_4.jpg"
+            loading="lazy"
+            width="279"
+            height="325"
+            alt="Blue&#x20;Jeans"/></span>
+</span>
+<style>.product-image-container-4 {
+    width: 279px;
+}
+.product-image-container-4 span.product-image-wrapper {
+    padding-bottom: 116.48745519713%;
+}</style><script type="text&#x2F;javascript">prodImageContainers = document.querySelectorAll(".product-image-container-4");
+for (var i = 0; i < prodImageContainers.length; i++) {
+    prodImageContainers[i].style.width = "279px";
+}
+prodImageContainersWrappers = document.querySelectorAll(
+    ".product-image-container-4  span.product-image-wrapper"
+);
+for (var i = 0; i < prodImageContainersWrappers.length; i++) {
+    prodImageContainersWrappers[i].style.paddingBottom = "116.48745519713%";
+}</script>                                </a>
+                                                                    <div class="product-item-actions">
+                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                data-post='{"action":"http:\/\/fashion.local\/checkout\/cart\/add\/uenc\/aHR0cDovL2Zhc2hpb24ubG9jYWwv\/product\/4\/","data":{"product":"4","uenc":"aHR0cDovL2Zhc2hpb24ubG9jYWwv"}}'
+                                                                type="button" title="Add to Cart">
+                                                            <span><i class="fa fa-shopping-basket"> </i></span>
+                                                        </button>
+                                                                                                                                                </div>
+                                                                                                                            <div class="actions-secondary" data-role="add-to-links">
+                                                                                                    <a href="#"
+                                                       data-post='{"action":"http:\/\/fashion.local\/wishlist\/index\/add\/","data":{"product":4,"uenc":"aHR0cDovL2Zhc2hpb24ubG9jYWwv"}}'
+                                                       class="action towishlist" data-action="add-to-wishlist"
+                                                       title="Wish List">
+                                                        <span><i class="fa fa-heart"> </i></span>
+                                                    </a>
+                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                       data-post='{"action":"http:\/\/fashion.local\/catalog\/product_compare\/add\/","data":{"product":"4","uenc":"aHR0cDovL2Zhc2hpb24ubG9jYWwv"}}'
+                                                       title="Compare">
+                                                        <span><i class="fa fa-refresh"> </i></span>
+                                                    </a>
+                                                                                            </div>
+                                                                            </div>
+                                                            </div>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Blue Jeans"
+                                       href="http://fashion.local/blue-jeans.html"
+                                       class="product-item-link">
+                                        Blue Jeans                                    </a>
+                                </strong>
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="4" data-price-box="product-id-4">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+        <span  id="old-price-4-widget-new-grid"                data-price-amount="120"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">$120.00</span></span>
+        </span>
+
+</div>
+                                                                                                    
+                                
+                            </div>
+                        </div>
+                        </li>                                    </ol>
+            </div>
+                    </div>
+    </div>

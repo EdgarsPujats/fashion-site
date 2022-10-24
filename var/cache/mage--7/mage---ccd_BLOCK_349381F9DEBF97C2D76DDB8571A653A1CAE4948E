@@ -1,0 +1,40 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1666602563;s:6:"expire";i:1666606163;s:4:"tags";s:43:"ccd_STORE,ccd_CMS_B,ccd_BLOCK_HTML,ccd_MAGE";}
+<div class="copyright">
+	<div class="page-main">
+	    <div class="pull-left"><span>Copyright © 2013-present Magento, Inc. All rights reserved.</span></div>
+	    <div class="pull-right hidden-xs"><div> We accept payment through : <img src="http://fashion.local/media/wysiwyg/fasony/home01/icon_pay.png" alt="" > </div></div>
+    </div>
+</div>
+
+<div id="top">
+    <a class="scrollup" href="javascript:void(0)">
+        <i class="fa fa-angle-up"></i>
+        <span>Top</span>
+    </a>
+</div>
+
+<script type="text/javascript">
+    require([
+        'jquery'
+        ],function(){
+            jQuery(document).ready(function($) {
+                if(jQuery(".scrollup").length > 0) {
+                    jQuery(document).ready(function(){
+                        jQuery(window).scroll(function(){
+                            if (jQuery(this).scrollTop() > 100) {
+                                jQuery('.scrollup').fadeIn();
+                            } else {
+                                jQuery('.scrollup').fadeOut();
+                            }
+                        });
+                        jQuery('.scrollup').click(function(){
+                            jQuery("html, body").animate({ scrollTop: 0 }, 600);
+                            return false;
+                        });
+                    });
+                }
+            });
+        });
+</script>
+
+
