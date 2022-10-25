@@ -12959,3 +12959,190 @@ Stack trace:
 #17 /home/edgarspujats/fashion-site/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
 #18 /home/edgarspujats/fashion-site/pub/index.php(34): Magento\Framework\App\Bootstrap->run()
 #19 {main} {"report_id":"186f810485fa2b14b7c0601dd9b73d512f666f0a38bc54bc1fa6f181527b39c4"} []
+[2022-10-24T11:17:26.286975+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-24T11:17:26.286994+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-24T11:17:26.287173+00:00] main.CRITICAL: FishPig\WordPress\App\Integration\Exception\IntegrationFatalException: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog in /home/edgarspujats/fashion-site/app/code/FishPig/WordPress/App/Integration/Test/UrlTest.php:55
+Stack trace:
+#0 /home/edgarspujats/fashion-site/app/code/FishPig/WordPress/App/Integration/Tests.php(61): FishPig\WordPress\App\Integration\Test\UrlTest->runTest()
+#1 /home/edgarspujats/fashion-site/app/code/FishPig/WordPress/Controller/Router.php(38): FishPig\WordPress\App\Integration\Tests->runTests()
+#2 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(58): FishPig\WordPress\Controller\Router->match()
+#3 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(138): FishPig\WordPress\Controller\Router\Interceptor->___callParent()
+#4 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(153): FishPig\WordPress\Controller\Router\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /home/edgarspujats/fashion-site/generated/code/FishPig/WordPress/Controller/Router/Interceptor.php(23): FishPig\WordPress\Controller\Router\Interceptor->___callPlugins()
+#6 /home/edgarspujats/fashion-site/vendor/magento/framework/App/FrontController.php(144): FishPig\WordPress\Controller\Router\Interceptor->match()
+#7 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\App\FrontController->dispatch()
+#8 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\App\FrontController\Interceptor->___callParent()
+#9 /home/edgarspujats/fashion-site/vendor/magento/module-store/App/FrontController/Plugin/RequestPreprocessor.php(99): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#10 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(135): Magento\Store\App\FrontController\Plugin\RequestPreprocessor->aroundDispatch()
+#11 /home/edgarspujats/fashion-site/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#13 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#15 /home/edgarspujats/fashion-site/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#16 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#17 /home/edgarspujats/fashion-site/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#18 /home/edgarspujats/fashion-site/pub/index.php(34): Magento\Framework\App\Bootstrap->run()
+#19 {main} {"report_id":"8bfa016f57ec5a36943f283e1d3ec9ebc7ad0ef55c735e63134cfe4a321bf9a5"} []
+[2022-10-24T11:17:26.287220+00:00] main.CRITICAL: FishPig\WordPress\App\Integration\Exception\IntegrationFatalException: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog in /home/edgarspujats/fashion-site/app/code/FishPig/WordPress/App/Integration/Test/UrlTest.php:55
+Stack trace:
+#0 /home/edgarspujats/fashion-site/app/code/FishPig/WordPress/App/Integration/Tests.php(61): FishPig\WordPress\App\Integration\Test\UrlTest->runTest()
+#1 /home/edgarspujats/fashion-site/app/code/FishPig/WordPress/Controller/Router.php(38): FishPig\WordPress\App\Integration\Tests->runTests()
+#2 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(58): FishPig\WordPress\Controller\Router->match()
+#3 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(138): FishPig\WordPress\Controller\Router\Interceptor->___callParent()
+#4 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(153): FishPig\WordPress\Controller\Router\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /home/edgarspujats/fashion-site/generated/code/FishPig/WordPress/Controller/Router/Interceptor.php(23): FishPig\WordPress\Controller\Router\Interceptor->___callPlugins()
+#6 /home/edgarspujats/fashion-site/vendor/magento/framework/App/FrontController.php(144): FishPig\WordPress\Controller\Router\Interceptor->match()
+#7 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\App\FrontController->dispatch()
+#8 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\App\FrontController\Interceptor->___callParent()
+#9 /home/edgarspujats/fashion-site/vendor/magento/module-store/App/FrontController/Plugin/RequestPreprocessor.php(99): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#10 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(135): Magento\Store\App\FrontController\Plugin\RequestPreprocessor->aroundDispatch()
+#11 /home/edgarspujats/fashion-site/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#13 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#15 /home/edgarspujats/fashion-site/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#16 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#17 /home/edgarspujats/fashion-site/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#18 /home/edgarspujats/fashion-site/pub/index.php(34): Magento\Framework\App\Bootstrap->run()
+#19 {main} {"report_id":"186f810485fa2b14b7c0601dd9b73d512f666f0a38bc54bc1fa6f181527b39c4"} []
+[2022-10-24T11:22:48.303636+00:00] main.ERROR: Not enough arguments (missing: "username").
+#0 /home/edgarspujats/fashion-site/vendor/symfony/console/Command/Command.php(250): Symfony\Component\Console\Input\Input->validate()
+#1 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#2 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(138): Magento\User\Console\UnlockAdminAccountCommand\Interceptor->___callParent()
+#3 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(153): Magento\User\Console\UnlockAdminAccountCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /home/edgarspujats/fashion-site/generated/code/Magento/User/Console/UnlockAdminAccountCommand/Interceptor.php(77): Magento\User\Console\UnlockAdminAccountCommand\Interceptor->___callPlugins()
+#5 /home/edgarspujats/fashion-site/vendor/symfony/console/Application.php(1009): Magento\User\Console\UnlockAdminAccountCommand\Interceptor->run()
+#6 /home/edgarspujats/fashion-site/vendor/symfony/console/Application.php(273): Symfony\Component\Console\Application->doRunCommand()
+#7 /home/edgarspujats/fashion-site/vendor/magento/framework/Console/Cli.php(115): Symfony\Component\Console\Application->doRun()
+#8 /home/edgarspujats/fashion-site/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#9 /home/edgarspujats/fashion-site/bin/magento(23): Symfony\Component\Console\Application->run()
+#10 {main} [] []
+[2022-10-24T11:28:54.644437+00:00] main.INFO: Item Magento_Backend::system_currency was removed [] []
+[2022-10-24T11:28:54.646760+00:00] main.INFO: Add of item with id Magento_Theme::design_config was processed [] []
+[2022-10-24T11:28:54.646817+00:00] main.INFO: Add of item with id Magento_Theme::system_design_theme was processed [] []
+[2022-10-24T11:28:54.646845+00:00] main.INFO: Add of item with id Magento_Config::system_config was processed [] []
+[2022-10-24T11:28:54.646861+00:00] main.INFO: Add of item with id Magento_Backend::system_design_schedule was processed [] []
+[2022-10-24T11:28:54.646876+00:00] main.INFO: Add of item with id Magento_Backend::system_store was processed [] []
+[2022-10-24T11:28:54.646890+00:00] main.INFO: Add of item with id Magento_Backend::dashboard was processed [] []
+[2022-10-24T11:28:54.646903+00:00] main.INFO: Add of item with id Magento_Backend::system was processed [] []
+[2022-10-24T11:28:54.646925+00:00] main.INFO: Add of item with id Magento_Backend::system_tools was processed [] []
+[2022-10-24T11:28:54.646946+00:00] main.INFO: Add of item with id Magento_Backend::system_design was processed [] []
+[2022-10-24T11:28:54.646963+00:00] main.INFO: Add of item with id Magento_Backend::system_convert was processed [] []
+[2022-10-24T11:28:54.646982+00:00] main.INFO: Add of item with id Magento_Backend::system_cache was processed [] []
+[2022-10-24T11:28:54.646997+00:00] main.INFO: Add of item with id Magento_Backend::marketing was processed [] []
+[2022-10-24T11:28:54.647016+00:00] main.INFO: Add of item with id Magento_Backend::marketing_communications was processed [] []
+[2022-10-24T11:28:54.647045+00:00] main.INFO: Add of item with id Magento_Backend::marketing_seo was processed [] []
+[2022-10-24T11:28:54.647058+00:00] main.INFO: Add of item with id Magento_Backend::marketing_user_content was processed [] []
+[2022-10-24T11:28:54.647070+00:00] main.INFO: Add of item with id Magento_Backend::content was processed [] []
+[2022-10-24T11:28:54.647083+00:00] main.INFO: Add of item with id Magento_Backend::content_elements was processed [] []
+[2022-10-24T11:28:54.647095+00:00] main.INFO: Add of item with id Magento_Backend::stores was processed [] []
+[2022-10-24T11:28:54.647114+00:00] main.INFO: Add of item with id Magento_Backend::stores_settings was processed [] []
+[2022-10-24T11:28:54.647129+00:00] main.INFO: Add of item with id Magento_Backend::stores_attributes was processed [] []
+[2022-10-24T11:28:54.647142+00:00] main.INFO: Add of item with id Magento_Backend::other_settings was processed [] []
+[2022-10-24T11:28:54.647154+00:00] main.INFO: Add of item with id Magento_Backend::system_other_settings was processed [] []
+[2022-10-24T11:28:54.647174+00:00] main.INFO: Add of item with id Magento_Variable::system_variable was processed [] []
+[2022-10-24T11:28:54.647195+00:00] main.INFO: Add of item with id Magento_Search::search_terms was processed [] []
+[2022-10-24T11:28:54.647209+00:00] main.INFO: Add of item with id Magento_Search::search_synonyms was processed [] []
+[2022-10-24T11:28:54.647222+00:00] main.INFO: Add of item with id Magento_Backup::system_tools_backup was processed [] []
+[2022-10-24T11:28:54.647234+00:00] main.INFO: Add of item with id Magento_Customer::customer was processed [] []
+[2022-10-24T11:28:54.647254+00:00] main.INFO: Add of item with id Magento_Customer::customer_manage was processed [] []
+[2022-10-24T11:28:54.647269+00:00] main.INFO: Add of item with id Magento_Customer::customer_online was processed [] []
+[2022-10-24T11:28:54.647281+00:00] main.INFO: Add of item with id Magento_Customer::customer_group was processed [] []
+[2022-10-24T11:28:54.647293+00:00] main.INFO: Add of item with id Magento_AdminNotification::system_adminnotification was processed [] []
+[2022-10-24T11:28:54.647307+00:00] main.INFO: Add of item with id Magento_Indexer::system_index was processed [] []
+[2022-10-24T11:28:54.647326+00:00] main.INFO: Add of item with id Magento_Cms::cms_page was processed [] []
+[2022-10-24T11:28:54.647341+00:00] main.INFO: Add of item with id Magento_Cms::cms_block was processed [] []
+[2022-10-24T11:28:54.647353+00:00] main.INFO: Add of item with id Magento_Catalog::catalog was processed [] []
+[2022-10-24T11:28:54.647372+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_products was processed [] []
+[2022-10-24T11:28:54.647386+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_categories was processed [] []
+[2022-10-24T11:28:54.647405+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_attributes was processed [] []
+[2022-10-24T11:28:54.647420+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_sets was processed [] []
+[2022-10-24T11:28:54.647439+00:00] main.INFO: Add of item with id Magento_Catalog::inventory was processed [] []
+[2022-10-24T11:28:54.647453+00:00] main.INFO: Add of item with id Magento_CatalogRule::promo was processed [] []
+[2022-10-24T11:28:54.647472+00:00] main.INFO: Add of item with id Magento_CatalogRule::promo_catalog was processed [] []
+[2022-10-24T11:28:54.647486+00:00] main.INFO: Add of item with id Magento_MediaGalleryUi::media was processed [] []
+[2022-10-24T11:28:54.647505+00:00] main.INFO: Add of item with id Magento_MediaGalleryUi::media_gallery was processed [] []
+[2022-10-24T11:28:54.647518+00:00] main.INFO: Add of item with id Magento_User::system_acl was processed [] []
+[2022-10-24T11:28:54.647536+00:00] main.INFO: Add of item with id Magento_User::system_acl_users was processed [] []
+[2022-10-24T11:28:54.647557+00:00] main.INFO: Add of item with id Magento_User::system_acl_roles was processed [] []
+[2022-10-24T11:28:54.647569+00:00] main.INFO: Add of item with id Magento_User::system_acl_locks was processed [] []
+[2022-10-24T11:28:54.647584+00:00] main.INFO: Add of item with id Magento_Sales::sales was processed [] []
+[2022-10-24T11:28:54.647603+00:00] main.INFO: Add of item with id Magento_Sales::sales_operation was processed [] []
+[2022-10-24T11:28:54.647624+00:00] main.INFO: Add of item with id Magento_Sales::sales_order was processed [] []
+[2022-10-24T11:28:54.647638+00:00] main.INFO: Add of item with id Magento_Sales::sales_invoice was processed [] []
+[2022-10-24T11:28:54.647650+00:00] main.INFO: Add of item with id Magento_Sales::sales_shipment was processed [] []
+[2022-10-24T11:28:54.647662+00:00] main.INFO: Add of item with id Magento_Sales::sales_creditmemo was processed [] []
+[2022-10-24T11:28:54.647674+00:00] main.INFO: Add of item with id Magento_Sales::sales_transactions was processed [] []
+[2022-10-24T11:28:54.647685+00:00] main.INFO: Add of item with id Magento_Sales::system_order_statuses was processed [] []
+[2022-10-24T11:28:54.647697+00:00] main.INFO: Add of item with id Magento_Widget::cms_widget_instance was processed [] []
+[2022-10-24T11:28:54.647709+00:00] main.INFO: Add of item with id Magento_Integration::system_extensions was processed [] []
+[2022-10-24T11:28:54.647727+00:00] main.INFO: Add of item with id Magento_Integration::system_integrations was processed [] []
+[2022-10-24T11:28:54.647748+00:00] main.INFO: Add of item with id Magento_Downloadable::report_products_downloads was processed [] []
+[2022-10-24T11:28:54.647769+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_import was processed [] []
+[2022-10-24T11:28:54.647783+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_export was processed [] []
+[2022-10-24T11:28:54.647795+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_history was processed [] []
+[2022-10-24T11:28:54.647814+00:00] main.INFO: Add of item with id Magento_Email::template was processed [] []
+[2022-10-24T11:28:54.647828+00:00] main.INFO: Add of item with id Magento_EncryptionKey::system_crypt_key was processed [] []
+[2022-10-24T11:28:54.647847+00:00] main.INFO: Add of item with id Magento_Analytics::business_intelligence was processed [] []
+[2022-10-24T11:28:54.647867+00:00] main.INFO: Add of item with id Magento_Analytics::advanced_reporting was processed [] []
+[2022-10-24T11:28:54.647882+00:00] main.INFO: Add of item with id Magento_Analytics::bi_essentials was processed [] []
+[2022-10-24T11:28:54.647894+00:00] main.INFO: Add of item with id Magento_Reports::report was processed [] []
+[2022-10-24T11:28:54.647907+00:00] main.INFO: Add of item with id Magento_Reports::report_marketing was processed [] []
+[2022-10-24T11:28:54.647918+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot was processed [] []
+[2022-10-24T11:28:54.647937+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_sales was processed [] []
+[2022-10-24T11:28:54.647952+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_tax was processed [] []
+[2022-10-24T11:28:54.647964+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_invoiced was processed [] []
+[2022-10-24T11:28:54.647977+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_shipping was processed [] []
+[2022-10-24T11:28:54.647988+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_refunded was processed [] []
+[2022-10-24T11:28:54.648000+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_coupons was processed [] []
+[2022-10-24T11:28:54.648018+00:00] main.INFO: Add of item with id Magento_Reports::report_shopcart_product was processed [] []
+[2022-10-24T11:28:54.648032+00:00] main.INFO: Add of item with id Magento_Reports::report_shopcart_abandoned was processed [] []
+[2022-10-24T11:28:54.648044+00:00] main.INFO: Add of item with id Magento_Reports::report_products was processed [] []
+[2022-10-24T11:28:54.648056+00:00] main.INFO: Add of item with id Magento_Reports::report_products_bestsellers was processed [] []
+[2022-10-24T11:28:54.648070+00:00] main.INFO: Add of item with id Magento_Reports::report_products_sold was processed [] []
+[2022-10-24T11:28:54.648081+00:00] main.INFO: Add of item with id Magento_Reports::report_products_viewed was processed [] []
+[2022-10-24T11:28:54.648092+00:00] main.INFO: Add of item with id Magento_Reports::report_products_lowstock was processed [] []
+[2022-10-24T11:28:54.648113+00:00] main.INFO: Add of item with id Magento_Reports::report_customers was processed [] []
+[2022-10-24T11:28:54.648132+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_accounts was processed [] []
+[2022-10-24T11:28:54.648147+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_totals was processed [] []
+[2022-10-24T11:28:54.648161+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_orders was processed [] []
+[2022-10-24T11:28:54.648173+00:00] main.INFO: Add of item with id Magento_Reports::report_statistics was processed [] []
+[2022-10-24T11:28:54.648191+00:00] main.INFO: Add of item with id Magento_Reports::report_statistics_refresh was processed [] []
+[2022-10-24T11:28:54.648205+00:00] main.INFO: Add of item with id Magento_Search::report_search_term was processed [] []
+[2022-10-24T11:28:54.648218+00:00] main.INFO: Add of item with id Magento_LoginAsCustomerLog::login_log was processed [] []
+[2022-10-24T11:28:54.648230+00:00] main.INFO: Add of item with id Magento_Marketplace::partners was processed [] []
+[2022-10-24T11:28:54.648242+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_template was processed [] []
+[2022-10-24T11:28:54.648253+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_queue was processed [] []
+[2022-10-24T11:28:54.648265+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_subscriber was processed [] []
+[2022-10-24T11:28:54.648276+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_problem was processed [] []
+[2022-10-24T11:28:54.648287+00:00] main.INFO: Add of item with id Magento_SalesRule::promo_quote was processed [] []
+[2022-10-24T11:28:54.648298+00:00] main.INFO: Add of item with id Magento_Sitemap::catalog_sitemap was processed [] []
+[2022-10-24T11:28:54.648310+00:00] main.INFO: Add of item with id Magento_PageBuilder::templates was processed [] []
+[2022-10-24T11:28:54.648321+00:00] main.INFO: Add of item with id Magento_Paypal::report_salesroot_paypal_settlement_reports was processed [] []
+[2022-10-24T11:28:54.648333+00:00] main.INFO: Add of item with id Magento_Paypal::paypal_billing_agreement was processed [] []
+[2022-10-24T11:28:54.648344+00:00] main.INFO: Add of item with id Magento_CheckoutAgreements::sales_checkoutagreement was processed [] []
+[2022-10-24T11:28:54.648355+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_ratings was processed [] []
+[2022-10-24T11:28:54.648373+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_pending was processed [] []
+[2022-10-24T11:28:54.648388+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_reviews_all was processed [] []
+[2022-10-24T11:28:54.648401+00:00] main.INFO: Add of item with id Magento_Review::report_review was processed [] []
+[2022-10-24T11:28:54.648422+00:00] main.INFO: Add of item with id Magento_Review::report_review_customer was processed [] []
+[2022-10-24T11:28:54.648441+00:00] main.INFO: Add of item with id Magento_Review::report_review_product was processed [] []
+[2022-10-24T11:28:54.648458+00:00] main.INFO: Add of item with id Magento_UrlRewrite::urlrewrite was processed [] []
+[2022-10-24T11:28:54.648471+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax was processed [] []
+[2022-10-24T11:28:54.648490+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax_rules was processed [] []
+[2022-10-24T11:28:54.648505+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax_rates was processed [] []
+[2022-10-24T11:28:54.648518+00:00] main.INFO: Add of item with id Magento_TaxImportExport::system_convert_tax was processed [] []
+[2022-10-24T11:28:54.648532+00:00] main.INFO: Add of item with id Magento_AsynchronousOperations::system_magento_logging was processed [] []
+[2022-10-24T11:28:54.648552+00:00] main.INFO: Add of item with id Magento_AsynchronousOperations::system_magento_logging_bulk_operations was processed [] []
+[2022-10-24T11:28:54.648567+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency was processed [] []
+[2022-10-24T11:28:54.648586+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_rates was processed [] []
+[2022-10-24T11:28:54.648600+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_symbols was processed [] []
+[2022-10-24T11:28:54.648613+00:00] main.INFO: Add of item with id FishPig_WordPress::wordpress was processed [] []
+[2022-10-24T11:28:54.648631+00:00] main.INFO: Add of item with id FishPig_WordPress::config was processed [] []
+[2022-10-24T11:28:54.648647+00:00] main.INFO: Add of item with id FishPig_WordPress::autologin was processed [] []
+[2022-10-24T11:28:54.648659+00:00] main.INFO: Add of item with id PayPal_Braintree::settlement_report was processed [] []
+[2022-10-24T11:28:54.648671+00:00] main.INFO: Add of item with id PayPal_Braintree::virtual_terminal was processed [] []
+[2022-10-24T11:28:54.648683+00:00] main.INFO: Add of item with id Ves_Setup::theme was processed [] []
+[2022-10-24T11:28:54.648702+00:00] main.INFO: Add of item with id Ves_Setup::tools_section was processed [] []
+[2022-10-24T11:28:54.648723+00:00] main.INFO: Add of item with id Ves_Setup::import was processed [] []
+[2022-10-24T11:28:54.648737+00:00] main.INFO: Add of item with id Ves_Setup::export was processed [] []

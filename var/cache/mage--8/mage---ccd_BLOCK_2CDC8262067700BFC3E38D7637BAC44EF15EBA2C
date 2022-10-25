@@ -1,6 +1,0 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1666602563;s:6:"expire";i:1666606163;s:4:"tags";s:81:"ccd_BLOCK_HTML,ccd_CAT_C,ccd_CAT_C_5,ccd_CAT_C_6,ccd_CAT_C_7,ccd_CAT_C_8,ccd_MAGE";}
-
-<nav class="navigation" data-action="navigation">
-    <ul data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left top","at":"left bottom"}}}'>
-        <li  class="level0 nav-1 category-item first level-top"><a href="http://fashion.local/men.html"  class="level-top" ><span>Men</span></a></li><li  class="level0 nav-2 category-item level-top"><a href="http://fashion.local/women.html"  class="level-top" ><span>Women</span></a></li><li  class="level0 nav-3 category-item level-top"><a href="http://fashion.local/accessories.html"  class="level-top" ><span>Accessories</span></a></li><li  class="level0 nav-4 category-item last level-top"><a href="http://fashion.local/sale.html"  class="level-top" ><span>Sale</span></a></li>            </ul>
-</nav>

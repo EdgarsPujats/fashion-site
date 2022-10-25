@@ -99,7 +99,7 @@ return [
         'Magento_GroupedCatalogInventory' => 1,
         'Magento_GroupedProductGraphQl' => 1,
         'Magento_DownloadableImportExport' => 1,
-        'Magento_Captcha' => 1,
+        'Magento_Captcha' => 0,
         'Magento_InstantPurchase' => 1,
         'Magento_Analytics' => 1,
         'Magento_Inventory' => 0,
