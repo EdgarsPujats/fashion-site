@@ -24,6 +24,23 @@ require.config(config);
  */
 
 var config = {
+    map: {
+        '*': {
+            systemMessageDialog: 'Magento_AdminNotification/system/notification',
+            toolbarEntry:   'Magento_AdminNotification/toolbar_entry'
+        }
+    }
+};
+
+require.config(config);
+})();
+(function() {
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+var config = {
     waitSeconds: 0,
     map: {
         '*': {
@@ -270,8 +287,8 @@ require.config(config);
 var config = {
     map: {
         '*': {
-            systemMessageDialog: 'Magento_AdminNotification/system/notification',
-            toolbarEntry:   'Magento_AdminNotification/toolbar_entry'
+            rolesTree: 'Magento_User/js/roles-tree',
+            deleteUserAccount: 'Magento_User/js/delete-user-account'
         }
     }
 };
@@ -394,8 +411,7 @@ require.config(config);
 var config = {
     map: {
         '*': {
-            rolesTree: 'Magento_User/js/roles-tree',
-            deleteUserAccount: 'Magento_User/js/delete-user-account'
+            integration: 'Magento_Integration/js/integration'
         }
     }
 };
@@ -427,22 +443,6 @@ require.config(config);
 var config = {
     paths: {
         'jquery/jquery-storageapi': 'Magento_Cookie/js/jquery.storageapi.extended'
-    }
-};
-
-require.config(config);
-})();
-(function() {
-/**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
-
-var config = {
-    map: {
-        '*': {
-            integration: 'Magento_Integration/js/integration'
-        }
     }
 };
 
@@ -530,8 +530,9 @@ var config = {
             'slick': 'Magento_PageBuilder/js/resource/slick/slick',
             'jarallax': 'Magento_PageBuilder/js/resource/jarallax/jarallax',
             'jarallaxVideo': 'Magento_PageBuilder/js/resource/jarallax/jarallax-video',
-            'vimeo': 'Magento_PageBuilder/js/resource/vimeo/player',
-            'vimeoWrapper': 'Magento_PageBuilder/js/resource/vimeo/vimeo-wrapper'
+            'Magento_PageBuilder/js/resource/vimeo/player': 'vimeo/player',
+            'Magento_PageBuilder/js/resource/vimeo/vimeo-wrapper': 'vimeo/vimeo-wrapper',
+            'jarallax-wrapper': 'Magento_PageBuilder/js/resource/jarallax/jarallax-wrapper'
         }
     },
     shim: {
@@ -539,10 +540,7 @@ var config = {
             deps: ['jquery']
         },
         'Magento_PageBuilder/js/resource/jarallax/jarallax-video': {
-            deps: ['jarallax', 'vimeoWrapper']
-        },
-        'Magento_PageBuilder/js/resource/vimeo/player': {
-            exports: ['Player']
+            deps: ['jarallax-wrapper', 'vimeoWrapper']
         }
     }
 };
@@ -683,6 +681,18 @@ var config = {
     deps: [
         'mageTranslationDictionary'
     ]
+};
+
+require.config(config);
+})();
+(function() {
+var config = {
+    map: {
+        '*': {
+            loadIcons: 'Magento_AdminAdobeIms/js/loadicons',
+            adobeImsReauth: 'Magento_AdminAdobeIms/js/adobe-ims-reauth'
+        }
+    }
 };
 
 require.config(config);

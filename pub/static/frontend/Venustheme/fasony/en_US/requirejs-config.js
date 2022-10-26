@@ -191,23 +191,6 @@ require.config(config);
 var config = {
     map: {
         '*': {
-            quickSearch: 'Magento_Search/js/form-mini',
-            'Magento_Search/form-mini': 'Magento_Search/js/form-mini'
-        }
-    }
-};
-
-require.config(config);
-})();
-(function() {
-/**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
-
-var config = {
-    map: {
-        '*': {
             checkoutBalance:    'Magento_Customer/js/checkout-balance',
             address:            'Magento_Customer/js/address',
             changeEmailPassword: 'Magento_Customer/js/change-email-password',
@@ -233,6 +216,23 @@ var config = {
     map: {
         '*': {
             escaper: 'Magento_Security/js/escaper'
+        }
+    }
+};
+
+require.config(config);
+})();
+(function() {
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+var config = {
+    map: {
+        '*': {
+            quickSearch: 'Magento_Search/js/form-mini',
+            'Magento_Search/form-mini': 'Magento_Search/js/form-mini'
         }
     }
 };
@@ -526,23 +526,6 @@ require.config(config);
 var config = {
     map: {
         '*': {
-            captcha: 'Magento_Captcha/js/captcha',
-            'Magento_Captcha/captcha': 'Magento_Captcha/js/captcha'
-        }
-    }
-};
-
-require.config(config);
-})();
-(function() {
-/**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
-
-var config = {
-    map: {
-        '*': {
             configurable: 'Magento_ConfigurableProduct/js/configurable'
         }
     },
@@ -647,8 +630,9 @@ var config = {
             'slick': 'Magento_PageBuilder/js/resource/slick/slick',
             'jarallax': 'Magento_PageBuilder/js/resource/jarallax/jarallax',
             'jarallaxVideo': 'Magento_PageBuilder/js/resource/jarallax/jarallax-video',
-            'vimeo': 'Magento_PageBuilder/js/resource/vimeo/player',
-            'vimeoWrapper': 'Magento_PageBuilder/js/resource/vimeo/vimeo-wrapper'
+            'Magento_PageBuilder/js/resource/vimeo/player': 'vimeo/player',
+            'Magento_PageBuilder/js/resource/vimeo/vimeo-wrapper': 'vimeo/vimeo-wrapper',
+            'jarallax-wrapper': 'Magento_PageBuilder/js/resource/jarallax/jarallax-wrapper'
         }
     },
     shim: {
@@ -656,10 +640,7 @@ var config = {
             deps: ['jquery']
         },
         'Magento_PageBuilder/js/resource/jarallax/jarallax-video': {
-            deps: ['jarallax', 'vimeoWrapper']
-        },
-        'Magento_PageBuilder/js/resource/vimeo/player': {
-            exports: ['Player']
+            deps: ['jarallax-wrapper', 'vimeoWrapper']
         }
     }
 };

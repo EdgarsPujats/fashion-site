@@ -332,17 +332,17 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.240.0",
-            "version_normalized": "3.240.0.0",
+            "version": "3.240.2",
+            "version_normalized": "3.240.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "95186e6a40670196cc2f9f752a38b863aa45a890"
+                "reference": "c4eb7c0a775758cfc8506082a0ebc8736970c411"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/95186e6a40670196cc2f9f752a38b863aa45a890",
-                "reference": "95186e6a40670196cc2f9f752a38b863aa45a890",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c4eb7c0a775758cfc8506082a0ebc8736970c411",
+                "reference": "c4eb7c0a775758cfc8506082a0ebc8736970c411",
                 "shasum": ""
             },
             "require": {
@@ -382,7 +382,7 @@
                 "ext-openssl": "Allows working with CloudFront private distributions and verifying received SNS messages",
                 "ext-sockets": "To use client-side monitoring"
             },
-            "time": "2022-10-21T20:17:33+00:00",
+            "time": "2022-10-25T18:15:27+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -423,7 +423,7 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.240.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.240.2"
             },
             "install-path": "../aws/aws-sdk-php"
         },
@@ -2499,17 +2499,17 @@
         },
         {
             "name": "endroid/qr-code",
-            "version": "4.6.0",
-            "version_normalized": "4.6.0.0",
+            "version": "4.6.1",
+            "version_normalized": "4.6.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/endroid/qr-code.git",
-                "reference": "b60873b14e2ca7bf3c3746f5e032023095a7e05c"
+                "reference": "a75c913b0e4d6ad275e49a2c1de1cacffc6c2184"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/endroid/qr-code/zipball/b60873b14e2ca7bf3c3746f5e032023095a7e05c",
-                "reference": "b60873b14e2ca7bf3c3746f5e032023095a7e05c",
+                "url": "https://api.github.com/repos/endroid/qr-code/zipball/a75c913b0e4d6ad275e49a2c1de1cacffc6c2184",
+                "reference": "a75c913b0e4d6ad275e49a2c1de1cacffc6c2184",
                 "shasum": ""
             },
             "require": {
@@ -2528,7 +2528,7 @@
                 "roave/security-advisories": "Makes sure package versions with known security issues are not installed",
                 "setasign/fpdf": "Enables you to use the PDF writer"
             },
-            "time": "2022-10-04T17:13:41+00:00",
+            "time": "2022-10-26T08:48:17+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2562,7 +2562,7 @@
             ],
             "support": {
                 "issues": "https://github.com/endroid/qr-code/issues",
-                "source": "https://github.com/endroid/qr-code/tree/4.6.0"
+                "source": "https://github.com/endroid/qr-code/tree/4.6.1"
             },
             "funding": [
                 {
@@ -2574,26 +2574,26 @@
         },
         {
             "name": "ezimuel/guzzlestreams",
-            "version": "3.0.1",
-            "version_normalized": "3.0.1.0",
+            "version": "3.1.0",
+            "version_normalized": "3.1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezimuel/guzzlestreams.git",
-                "reference": "abe3791d231167f14eb80d413420d1eab91163a8"
+                "reference": "b4b5a025dfee70d6cd34c780e07330eb93d5b997"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezimuel/guzzlestreams/zipball/abe3791d231167f14eb80d413420d1eab91163a8",
-                "reference": "abe3791d231167f14eb80d413420d1eab91163a8",
+                "url": "https://api.github.com/repos/ezimuel/guzzlestreams/zipball/b4b5a025dfee70d6cd34c780e07330eb93d5b997",
+                "reference": "b4b5a025dfee70d6cd34c780e07330eb93d5b997",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "~9.0"
             },
-            "time": "2020-02-14T23:11:50+00:00",
+            "time": "2022-10-24T12:58:50+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2624,23 +2624,23 @@
                 "stream"
             ],
             "support": {
-                "source": "https://github.com/ezimuel/guzzlestreams/tree/3.0.1"
+                "source": "https://github.com/ezimuel/guzzlestreams/tree/3.1.0"
             },
             "install-path": "../ezimuel/guzzlestreams"
         },
         {
             "name": "ezimuel/ringphp",
-            "version": "1.2.0",
-            "version_normalized": "1.2.0.0",
+            "version": "1.2.1",
+            "version_normalized": "1.2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezimuel/ringphp.git",
-                "reference": "92b8161404ab1ad84059ebed41d9f757e897ce74"
+                "reference": "8d00384f9e5c04713ef8448adf47824265791b50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezimuel/ringphp/zipball/92b8161404ab1ad84059ebed41d9f757e897ce74",
-                "reference": "92b8161404ab1ad84059ebed41d9f757e897ce74",
+                "url": "https://api.github.com/repos/ezimuel/ringphp/zipball/8d00384f9e5c04713ef8448adf47824265791b50",
+                "reference": "8d00384f9e5c04713ef8448adf47824265791b50",
                 "shasum": ""
             },
             "require": {
@@ -2658,7 +2658,7 @@
             "suggest": {
                 "ext-curl": "Guzzle will use specific adapters if cURL is present"
             },
-            "time": "2021-11-16T11:51:30+00:00",
+            "time": "2022-10-25T12:54:22+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2684,7 +2684,7 @@
             ],
             "description": "Fork of guzzle/RingPHP (abandoned) to be used with elasticsearch-php",
             "support": {
-                "source": "https://github.com/ezimuel/ringphp/tree/1.2.0"
+                "source": "https://github.com/ezimuel/ringphp/tree/1.2.1"
             },
             "install-path": "../ezimuel/ringphp"
         },
@@ -3134,17 +3134,17 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.4.1",
-            "version_normalized": "2.4.1.0",
+            "version": "2.4.2",
+            "version_normalized": "2.4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "69568e4293f4fa993f3b0e51c9723e1e17c41379"
+                "reference": "3148458748274be1546f8f2809a6c09fe66f44aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/69568e4293f4fa993f3b0e51c9723e1e17c41379",
-                "reference": "69568e4293f4fa993f3b0e51c9723e1e17c41379",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/3148458748274be1546f8f2809a6c09fe66f44aa",
+                "reference": "3148458748274be1546f8f2809a6c09fe66f44aa",
                 "shasum": ""
             },
             "require": {
@@ -3165,7 +3165,7 @@
             "suggest": {
                 "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
             },
-            "time": "2022-08-28T14:45:39+00:00",
+            "time": "2022-10-25T13:49:28+00:00",
             "type": "library",
             "extra": {
                 "bamarni-bin": {
@@ -3236,7 +3236,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.4.1"
+                "source": "https://github.com/guzzle/psr7/tree/2.4.2"
             },
             "funding": [
                 {
@@ -3915,17 +3915,17 @@
         },
         {
             "name": "laminas/laminas-diactoros",
-            "version": "2.19.0",
-            "version_normalized": "2.19.0.0",
+            "version": "2.20.0",
+            "version_normalized": "2.20.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-diactoros.git",
-                "reference": "b3c7e9262b4fbec801d8df2370cdebb4f5d3a0ae"
+                "reference": "10696c809866bebd9d71dca14de6c0d6c1cac2f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-diactoros/zipball/b3c7e9262b4fbec801d8df2370cdebb4f5d3a0ae",
-                "reference": "b3c7e9262b4fbec801d8df2370cdebb4f5d3a0ae",
+                "url": "https://api.github.com/repos/laminas/laminas-diactoros/zipball/10696c809866bebd9d71dca14de6c0d6c1cac2f8",
+                "reference": "10696c809866bebd9d71dca14de6c0d6c1cac2f8",
                 "shasum": ""
             },
             "require": {
@@ -3952,7 +3952,7 @@
                 "psalm/plugin-phpunit": "^0.17.0",
                 "vimeo/psalm": "^4.28"
             },
-            "time": "2022-10-10T21:28:03+00:00",
+            "time": "2022-10-25T13:35:54+00:00",
             "type": "library",
             "extra": {
                 "laminas": {
@@ -20918,17 +20918,17 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "3.0.16",
-            "version_normalized": "3.0.16.0",
+            "version": "3.0.17",
+            "version_normalized": "3.0.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "7181378909ed8890be4db53d289faac5b77f8b05"
+                "reference": "dbc2307d5c69aeb22db136c52e91130d7f2ca761"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/7181378909ed8890be4db53d289faac5b77f8b05",
-                "reference": "7181378909ed8890be4db53d289faac5b77f8b05",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/dbc2307d5c69aeb22db136c52e91130d7f2ca761",
+                "reference": "dbc2307d5c69aeb22db136c52e91130d7f2ca761",
                 "shasum": ""
             },
             "require": {
@@ -20946,7 +20946,7 @@
                 "ext-mcrypt": "Install the Mcrypt extension in order to speed up a few other cryptographic operations.",
                 "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations."
             },
-            "time": "2022-09-05T18:03:08+00:00",
+            "time": "2022-10-24T10:51:50+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -21011,7 +21011,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.16"
+                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.17"
             },
             "funding": [
                 {

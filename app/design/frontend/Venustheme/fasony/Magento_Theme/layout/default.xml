@@ -51,8 +51,6 @@
         </referenceContainer>
 
         <!-- <referenceBlock name="catalog.topnav"  remove="true"/> -->
-        
-       <move element="navigation.sections" name="ves.topmenu" destination="ves_header" as="catalog.topnav"/>
 
         <move element="skip_to_content" as="skipToContent" destination="ves_header"/>
        
@@ -75,7 +73,6 @@
             </container>
 
             <container name="footer" as="footer" label="Page Footer" htmlTag="div" htmlClass="footer">
-                <remove name="form.subscribe"/>
                 <block class="Magento\Theme\Block\Html\Footer" name="copyright" template="html/copyright.phtml"/>
                 <block class="Magento\Framework\View\Element\Template" name="report.bugs" template="Magento_Theme::html/bugreport.phtml" />
             </container>

@@ -2940,8 +2940,8 @@ class ComposerStaticInit577050ee7ba9ca0141f574cfadd4c17c
         ),
         'Codeception\\' => 
         array (
-            0 => __DIR__ . '/..' . '/codeception/stub/src',
-            1 => __DIR__ . '/..' . '/codeception/codeception/src/Codeception',
+            0 => __DIR__ . '/..' . '/codeception/codeception/src/Codeception',
+            1 => __DIR__ . '/..' . '/codeception/stub/src',
         ),
         'Brick\\VarExporter\\' => 
         array (

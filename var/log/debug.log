@@ -4355,3 +4355,658 @@ frontend/Magento/luma/en_US             2530/2530           ====================
 frontend/Venustheme/fasony/en_US        2628/2628           ============================ 100%   3 secs
 
 Execution time: 12.280090093613 [] []
+[2022-10-26T13:55:47.580233+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2022-10-26T13:55:55.784186+00:00] main.INFO: Item Magento_Backend::system_currency was removed [] []
+[2022-10-26T13:55:55.786808+00:00] main.INFO: Add of item with id Magento_AdminNotification::system_adminnotification was processed [] []
+[2022-10-26T13:55:55.786909+00:00] main.INFO: Add of item with id Magento_Theme::design_config was processed [] []
+[2022-10-26T13:55:55.786942+00:00] main.INFO: Add of item with id Magento_Theme::system_design_theme was processed [] []
+[2022-10-26T13:55:55.786979+00:00] main.INFO: Add of item with id Magento_Config::system_config was processed [] []
+[2022-10-26T13:55:55.787008+00:00] main.INFO: Add of item with id Magento_Backend::system_design_schedule was processed [] []
+[2022-10-26T13:55:55.787034+00:00] main.INFO: Add of item with id Magento_Backend::system_store was processed [] []
+[2022-10-26T13:55:55.787058+00:00] main.INFO: Add of item with id Magento_Backend::dashboard was processed [] []
+[2022-10-26T13:55:55.787082+00:00] main.INFO: Add of item with id Magento_Backend::system was processed [] []
+[2022-10-26T13:55:55.787116+00:00] main.INFO: Add of item with id Magento_Backend::system_tools was processed [] []
+[2022-10-26T13:55:55.787154+00:00] main.INFO: Add of item with id Magento_Backend::system_design was processed [] []
+[2022-10-26T13:55:55.787182+00:00] main.INFO: Add of item with id Magento_Backend::system_convert was processed [] []
+[2022-10-26T13:55:55.787215+00:00] main.INFO: Add of item with id Magento_Backend::system_cache was processed [] []
+[2022-10-26T13:55:55.787244+00:00] main.INFO: Add of item with id Magento_Backend::marketing was processed [] []
+[2022-10-26T13:55:55.787293+00:00] main.INFO: Add of item with id Magento_Backend::marketing_communications was processed [] []
+[2022-10-26T13:55:55.787323+00:00] main.INFO: Add of item with id Magento_Backend::marketing_seo was processed [] []
+[2022-10-26T13:55:55.787348+00:00] main.INFO: Add of item with id Magento_Backend::marketing_user_content was processed [] []
+[2022-10-26T13:55:55.787372+00:00] main.INFO: Add of item with id Magento_Backend::content was processed [] []
+[2022-10-26T13:55:55.787396+00:00] main.INFO: Add of item with id Magento_Backend::content_elements was processed [] []
+[2022-10-26T13:55:55.787430+00:00] main.INFO: Add of item with id Magento_Backend::stores was processed [] []
+[2022-10-26T13:55:55.787463+00:00] main.INFO: Add of item with id Magento_Backend::stores_settings was processed [] []
+[2022-10-26T13:55:55.787491+00:00] main.INFO: Add of item with id Magento_Backend::stores_attributes was processed [] []
+[2022-10-26T13:55:55.787516+00:00] main.INFO: Add of item with id Magento_Backend::other_settings was processed [] []
+[2022-10-26T13:55:55.787548+00:00] main.INFO: Add of item with id Magento_Backend::system_other_settings was processed [] []
+[2022-10-26T13:55:55.787572+00:00] main.INFO: Add of item with id Magento_Customer::customer was processed [] []
+[2022-10-26T13:55:55.787607+00:00] main.INFO: Add of item with id Magento_Customer::customer_manage was processed [] []
+[2022-10-26T13:55:55.787635+00:00] main.INFO: Add of item with id Magento_Customer::customer_online was processed [] []
+[2022-10-26T13:55:55.787659+00:00] main.INFO: Add of item with id Magento_Customer::customer_group was processed [] []
+[2022-10-26T13:55:55.787684+00:00] main.INFO: Add of item with id Magento_User::system_acl was processed [] []
+[2022-10-26T13:55:55.787717+00:00] main.INFO: Add of item with id Magento_User::system_acl_users was processed [] []
+[2022-10-26T13:55:55.787746+00:00] main.INFO: Add of item with id Magento_User::system_acl_roles was processed [] []
+[2022-10-26T13:55:55.787771+00:00] main.INFO: Add of item with id Magento_User::system_acl_locks was processed [] []
+[2022-10-26T13:55:55.787795+00:00] main.INFO: Add of item with id Magento_Backup::system_tools_backup was processed [] []
+[2022-10-26T13:55:55.787819+00:00] main.INFO: Add of item with id Magento_Indexer::system_index was processed [] []
+[2022-10-26T13:55:55.787842+00:00] main.INFO: Add of item with id Magento_Variable::system_variable was processed [] []
+[2022-10-26T13:55:55.787875+00:00] main.INFO: Add of item with id Magento_Cms::cms_page was processed [] []
+[2022-10-26T13:55:55.787904+00:00] main.INFO: Add of item with id Magento_Cms::cms_block was processed [] []
+[2022-10-26T13:55:55.787938+00:00] main.INFO: Add of item with id Magento_Search::search_terms was processed [] []
+[2022-10-26T13:55:55.787966+00:00] main.INFO: Add of item with id Magento_Search::search_synonyms was processed [] []
+[2022-10-26T13:55:55.787991+00:00] main.INFO: Add of item with id Magento_Catalog::catalog was processed [] []
+[2022-10-26T13:55:55.788025+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_products was processed [] []
+[2022-10-26T13:55:55.788053+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_categories was processed [] []
+[2022-10-26T13:55:55.788087+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_attributes was processed [] []
+[2022-10-26T13:55:55.788117+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_sets was processed [] []
+[2022-10-26T13:55:55.788150+00:00] main.INFO: Add of item with id Magento_Catalog::inventory was processed [] []
+[2022-10-26T13:55:55.788178+00:00] main.INFO: Add of item with id Magento_CatalogRule::promo was processed [] []
+[2022-10-26T13:55:55.788211+00:00] main.INFO: Add of item with id Magento_CatalogRule::promo_catalog was processed [] []
+[2022-10-26T13:55:55.788240+00:00] main.INFO: Add of item with id Magento_MediaGalleryUi::media was processed [] []
+[2022-10-26T13:55:55.788274+00:00] main.INFO: Add of item with id Magento_MediaGalleryUi::media_gallery was processed [] []
+[2022-10-26T13:55:55.788300+00:00] main.INFO: Add of item with id Magento_Integration::system_extensions was processed [] []
+[2022-10-26T13:55:55.788334+00:00] main.INFO: Add of item with id Magento_Integration::system_integrations was processed [] []
+[2022-10-26T13:55:55.788361+00:00] main.INFO: Add of item with id Magento_Sales::sales was processed [] []
+[2022-10-26T13:55:55.788395+00:00] main.INFO: Add of item with id Magento_Sales::sales_operation was processed [] []
+[2022-10-26T13:55:55.788432+00:00] main.INFO: Add of item with id Magento_Sales::sales_order was processed [] []
+[2022-10-26T13:55:55.788465+00:00] main.INFO: Add of item with id Magento_Sales::sales_invoice was processed [] []
+[2022-10-26T13:55:55.788489+00:00] main.INFO: Add of item with id Magento_Sales::sales_shipment was processed [] []
+[2022-10-26T13:55:55.788513+00:00] main.INFO: Add of item with id Magento_Sales::sales_creditmemo was processed [] []
+[2022-10-26T13:55:55.788538+00:00] main.INFO: Add of item with id Magento_Sales::sales_transactions was processed [] []
+[2022-10-26T13:55:55.788561+00:00] main.INFO: Add of item with id Magento_Sales::system_order_statuses was processed [] []
+[2022-10-26T13:55:55.788584+00:00] main.INFO: Add of item with id Magento_Widget::cms_widget_instance was processed [] []
+[2022-10-26T13:55:55.788616+00:00] main.INFO: Add of item with id Magento_Analytics::business_intelligence was processed [] []
+[2022-10-26T13:55:55.788653+00:00] main.INFO: Add of item with id Magento_Analytics::advanced_reporting was processed [] []
+[2022-10-26T13:55:55.788680+00:00] main.INFO: Add of item with id Magento_Analytics::bi_essentials was processed [] []
+[2022-10-26T13:55:55.788713+00:00] main.INFO: Add of item with id Magento_Downloadable::report_products_downloads was processed [] []
+[2022-10-26T13:55:55.788749+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_import was processed [] []
+[2022-10-26T13:55:55.788777+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_export was processed [] []
+[2022-10-26T13:55:55.788801+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_history was processed [] []
+[2022-10-26T13:55:55.788834+00:00] main.INFO: Add of item with id Magento_Email::template was processed [] []
+[2022-10-26T13:55:55.788862+00:00] main.INFO: Add of item with id Magento_EncryptionKey::system_crypt_key was processed [] []
+[2022-10-26T13:55:55.788887+00:00] main.INFO: Add of item with id Magento_Reports::report was processed [] []
+[2022-10-26T13:55:55.788912+00:00] main.INFO: Add of item with id Magento_Reports::report_marketing was processed [] []
+[2022-10-26T13:55:55.788936+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot was processed [] []
+[2022-10-26T13:55:55.788968+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_sales was processed [] []
+[2022-10-26T13:55:55.788996+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_tax was processed [] []
+[2022-10-26T13:55:55.789020+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_invoiced was processed [] []
+[2022-10-26T13:55:55.789044+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_shipping was processed [] []
+[2022-10-26T13:55:55.789068+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_refunded was processed [] []
+[2022-10-26T13:55:55.789091+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_coupons was processed [] []
+[2022-10-26T13:55:55.789124+00:00] main.INFO: Add of item with id Magento_Reports::report_shopcart_product was processed [] []
+[2022-10-26T13:55:55.789151+00:00] main.INFO: Add of item with id Magento_Reports::report_shopcart_abandoned was processed [] []
+[2022-10-26T13:55:55.789175+00:00] main.INFO: Add of item with id Magento_Reports::report_products was processed [] []
+[2022-10-26T13:55:55.789199+00:00] main.INFO: Add of item with id Magento_Reports::report_products_bestsellers was processed [] []
+[2022-10-26T13:55:55.789222+00:00] main.INFO: Add of item with id Magento_Reports::report_products_sold was processed [] []
+[2022-10-26T13:55:55.789244+00:00] main.INFO: Add of item with id Magento_Reports::report_products_viewed was processed [] []
+[2022-10-26T13:55:55.789267+00:00] main.INFO: Add of item with id Magento_Reports::report_products_lowstock was processed [] []
+[2022-10-26T13:55:55.789290+00:00] main.INFO: Add of item with id Magento_Reports::report_customers was processed [] []
+[2022-10-26T13:55:55.789321+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_accounts was processed [] []
+[2022-10-26T13:55:55.789354+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_totals was processed [] []
+[2022-10-26T13:55:55.789385+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_orders was processed [] []
+[2022-10-26T13:55:55.789411+00:00] main.INFO: Add of item with id Magento_Reports::report_statistics was processed [] []
+[2022-10-26T13:55:55.789449+00:00] main.INFO: Add of item with id Magento_Reports::report_statistics_refresh was processed [] []
+[2022-10-26T13:55:55.789477+00:00] main.INFO: Add of item with id Magento_Search::report_search_term was processed [] []
+[2022-10-26T13:55:55.789502+00:00] main.INFO: Add of item with id Magento_LoginAsCustomerLog::login_log was processed [] []
+[2022-10-26T13:55:55.789525+00:00] main.INFO: Add of item with id Magento_Marketplace::partners was processed [] []
+[2022-10-26T13:55:55.789549+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_template was processed [] []
+[2022-10-26T13:55:55.789572+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_queue was processed [] []
+[2022-10-26T13:55:55.789595+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_subscriber was processed [] []
+[2022-10-26T13:55:55.789618+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_problem was processed [] []
+[2022-10-26T13:55:55.789641+00:00] main.INFO: Add of item with id Magento_SalesRule::promo_quote was processed [] []
+[2022-10-26T13:55:55.789664+00:00] main.INFO: Add of item with id Magento_Sitemap::catalog_sitemap was processed [] []
+[2022-10-26T13:55:55.789686+00:00] main.INFO: Add of item with id Magento_PageBuilder::templates was processed [] []
+[2022-10-26T13:55:55.789708+00:00] main.INFO: Add of item with id Magento_Paypal::report_salesroot_paypal_settlement_reports was processed [] []
+[2022-10-26T13:55:55.789732+00:00] main.INFO: Add of item with id Magento_Paypal::paypal_billing_agreement was processed [] []
+[2022-10-26T13:55:55.789755+00:00] main.INFO: Add of item with id Magento_CheckoutAgreements::sales_checkoutagreement was processed [] []
+[2022-10-26T13:55:55.789779+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_ratings was processed [] []
+[2022-10-26T13:55:55.789814+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_pending was processed [] []
+[2022-10-26T13:55:55.789843+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_reviews_all was processed [] []
+[2022-10-26T13:55:55.789870+00:00] main.INFO: Add of item with id Magento_Review::report_review was processed [] []
+[2022-10-26T13:55:55.789906+00:00] main.INFO: Add of item with id Magento_Review::report_review_customer was processed [] []
+[2022-10-26T13:55:55.789933+00:00] main.INFO: Add of item with id Magento_Review::report_review_product was processed [] []
+[2022-10-26T13:55:55.789958+00:00] main.INFO: Add of item with id Magento_UrlRewrite::urlrewrite was processed [] []
+[2022-10-26T13:55:55.789983+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax was processed [] []
+[2022-10-26T13:55:55.790020+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax_rules was processed [] []
+[2022-10-26T13:55:55.790050+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax_rates was processed [] []
+[2022-10-26T13:55:55.790074+00:00] main.INFO: Add of item with id Magento_TaxImportExport::system_convert_tax was processed [] []
+[2022-10-26T13:55:55.790098+00:00] main.INFO: Add of item with id Magento_AsynchronousOperations::system_magento_logging was processed [] []
+[2022-10-26T13:55:55.790130+00:00] main.INFO: Add of item with id Magento_AsynchronousOperations::system_magento_logging_bulk_operations was processed [] []
+[2022-10-26T13:55:55.790160+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency was processed [] []
+[2022-10-26T13:55:55.790194+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_rates was processed [] []
+[2022-10-26T13:55:55.790222+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_symbols was processed [] []
+[2022-10-26T13:55:55.790250+00:00] main.INFO: Add of item with id FishPig_WordPress::wordpress was processed [] []
+[2022-10-26T13:55:55.790283+00:00] main.INFO: Add of item with id FishPig_WordPress::config was processed [] []
+[2022-10-26T13:55:55.790312+00:00] main.INFO: Add of item with id FishPig_WordPress::autologin was processed [] []
+[2022-10-26T13:55:55.790339+00:00] main.INFO: Add of item with id PayPal_Braintree::settlement_report was processed [] []
+[2022-10-26T13:55:55.790363+00:00] main.INFO: Add of item with id PayPal_Braintree::virtual_terminal was processed [] []
+[2022-10-26T13:55:55.790386+00:00] main.INFO: Add of item with id Ves_Setup::theme was processed [] []
+[2022-10-26T13:55:55.790420+00:00] main.INFO: Add of item with id Ves_Setup::tools_section was processed [] []
+[2022-10-26T13:55:55.790458+00:00] main.INFO: Add of item with id Ves_Setup::import was processed [] []
+[2022-10-26T13:55:55.790485+00:00] main.INFO: Add of item with id Ves_Setup::export was processed [] []
+[2022-10-26T13:55:56.001944+00:00] main.DEBUG: Request validation failed for action "Magento\Cms\Controller\Adminhtml\Page\Edit\Interceptor" {"exception":"[object] (Magento\\Framework\\App\\Request\\InvalidRequestException(code: 0): Invalid request received at /home/edgarspujats/fashion-site/vendor/magento/module-backend/App/Request/BackendValidator.php:176)"} []
+[2022-10-26T13:55:56.370474+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2022-10-26T13:56:06.589842+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2022-10-26T13:56:15.006190+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2022-10-26T13:56:17.286345+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2022-10-26T13:56:20.601171+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://fashion.local/admin/cms/page/save/key/68c7d072b92ef90777c2e4745eeb0ab5d22cc7a3167a6c32e9b9e922292e6644/","invalidateInfo":{"tags":["cms_p"],"mode":"matchingAnyTag"}} []
+[2022-10-26T13:56:20.603399+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://fashion.local/admin/cms/page/save/key/68c7d072b92ef90777c2e4745eeb0ab5d22cc7a3167a6c32e9b9e922292e6644/","invalidateInfo":{"servers":[{"Laminas\\Uri\\Uri":"http://fashion.local:80/"}],"formattedTagsChunk":"((^|,)cms_p_1(,|$))"}} []
+[2022-10-26T13:56:20.701749+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2022-10-26T13:57:18.346175+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Venustheme/fasony/en_US/images/logo.png' [] []
+[2022-10-26T13:57:18.346407+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Venustheme/fasony/en_US/images/logo.png' [] []
+[2022-10-26T13:57:18.376140+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T13:57:18.376141+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T13:57:21.148567+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T13:57:21.206187+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T13:57:51.823488+00:00] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE1_4fcf69ccd956244641e326ba6a4a8a4de_page_layout_merged and handles default, cms_page_view, cms_page_view_id_no-route: Please correct the XML data and try again. Element 'move', attribute 'name': The attribute 'name' is not allowed.
+Line: 757
+
+Element 'remove': This element is not expected. Expected is one of ( block, container, referenceBlock, referenceContainer, uiComponent ).
+Line: 775
+ [] []
+[2022-10-26T13:57:51.823611+00:00] main.ERROR: Element 'move', attribute 'name': The attribute 'name' is not allowed.
+Line: 757
+
+Element 'remove': This element is not expected. Expected is one of ( block, container, referenceBlock, referenceContainer, uiComponent ).
+Line: 775
+ [] []
+[2022-10-26T13:57:51.879239+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:01:33.694844+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"servers":[{"Laminas\\Uri\\Http":"http://fashion.local/"}],"formattedTagsChunk":".*"}} []
+[2022-10-26T14:01:40.553430+00:00] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE1_4fcf69ccd956244641e326ba6a4a8a4de_page_layout_merged and handles default, cms_page_view, cms_page_view_id_no-route: Please correct the XML data and try again. Element 'remove': This element is not expected. Expected is one of ( block, container, referenceBlock, referenceContainer, uiComponent ).
+Line: 774
+ [] []
+[2022-10-26T14:01:40.553568+00:00] main.ERROR: Element 'remove': This element is not expected. Expected is one of ( block, container, referenceBlock, referenceContainer, uiComponent ).
+Line: 774
+ [] []
+[2022-10-26T14:01:40.651107+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:02:02.685705+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"servers":[{"Laminas\\Uri\\Http":"http://fashion.local/"}],"formattedTagsChunk":".*"}} []
+[2022-10-26T14:02:08.768467+00:00] main.CRITICAL: InvalidArgumentException: Argument 'value' must be type of string, NULL given. in /home/edgarspujats/fashion-site/vendor/magento/framework/Filter/Template.php:177
+Stack trace:
+#0 /home/edgarspujats/fashion-site/vendor/magento/module-email/Model/Template/Filter.php(1106): Magento\Framework\Filter\Template->filter()
+#1 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Email\Model\Template\Filter->filter()
+#2 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Widget\Model\Template\Filter\Interceptor->___callParent()
+#3 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Widget\Model\Template\Filter\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /home/edgarspujats/fashion-site/generated/code/Magento/Widget/Model/Template/Filter/Interceptor.php(284): Magento\Widget\Model\Template\Filter\Interceptor->___callPlugins()
+#5 /home/edgarspujats/fashion-site/app/code/Magebit/Attribute/Block/Attribute.php(20): Magento\Widget\Model\Template\Filter\Interceptor->filter()
+#6 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Element/AbstractBlock.php(1095): Magebit\Attribute\Block\Attribute->_toHtml()
+#7 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Element/AbstractBlock.php(1099): Magento\Framework\View\Element\AbstractBlock->Magento\Framework\View\Element\{closure}()
+#8 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Element/AbstractBlock.php(660): Magento\Framework\View\Element\AbstractBlock->_loadCache()
+#9 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(578): Magento\Framework\View\Element\AbstractBlock->toHtml()
+#10 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(555): Magento\Framework\View\Layout->_renderBlock()
+#11 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#12 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#13 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#14 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#15 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#16 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#17 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#18 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#19 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#20 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#21 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#22 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#23 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#24 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#25 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#26 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#27 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#28 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#29 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#30 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#31 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#32 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#33 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#34 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#35 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#36 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#37 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#38 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#39 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#40 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#41 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#42 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#43 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#44 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(975): Magento\Framework\View\Layout\Interceptor->renderElement()
+#45 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\Layout->getOutput()
+#46 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\View\Layout\Interceptor->___callParent()
+#47 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\View\Layout\Interceptor->Magento\Framework\Interception\{closure}()
+#48 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(347): Magento\Framework\View\Layout\Interceptor->___callPlugins()
+#49 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Result/Page.php(260): Magento\Framework\View\Layout\Interceptor->getOutput()
+#50 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Result/Layout.php(171): Magento\Framework\View\Result\Page->render()
+#51 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\Result\Layout->renderResult()
+#52 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\View\Result\Page\Interceptor->___callParent()
+#53 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\View\Result\Page\Interceptor->Magento\Framework\Interception\{closure}()
+#54 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Result/Page/Interceptor.php(95): Magento\Framework\View\Result\Page\Interceptor->___callPlugins()
+#55 /home/edgarspujats/fashion-site/vendor/magento/framework/App/Http.php(120): Magento\Framework\View\Result\Page\Interceptor->renderResult()
+#56 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#57 /home/edgarspujats/fashion-site/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#58 /home/edgarspujats/fashion-site/pub/index.php(34): Magento\Framework\App\Bootstrap->run()
+#59 {main} [] []
+[2022-10-26T14:02:08.874687+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Venustheme/fasony/en_US/images/logo.png' [] []
+[2022-10-26T14:02:08.874863+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Venustheme/fasony/en_US/images/logo.png' [] []
+[2022-10-26T14:02:08.897913+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:02:08.918292+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:02:09.190853+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:02:59.076931+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"servers":[{"Laminas\\Uri\\Http":"http://fashion.local/"}],"formattedTagsChunk":".*"}} []
+[2022-10-26T14:03:04.172551+00:00] main.CRITICAL: InvalidArgumentException: Argument 'value' must be type of string, NULL given. in /home/edgarspujats/fashion-site/vendor/magento/framework/Filter/Template.php:177
+Stack trace:
+#0 /home/edgarspujats/fashion-site/vendor/magento/module-email/Model/Template/Filter.php(1106): Magento\Framework\Filter\Template->filter()
+#1 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Email\Model\Template\Filter->filter()
+#2 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Widget\Model\Template\Filter\Interceptor->___callParent()
+#3 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Widget\Model\Template\Filter\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /home/edgarspujats/fashion-site/generated/code/Magento/Widget/Model/Template/Filter/Interceptor.php(284): Magento\Widget\Model\Template\Filter\Interceptor->___callPlugins()
+#5 /home/edgarspujats/fashion-site/app/code/Magebit/Attribute/Block/Attribute.php(20): Magento\Widget\Model\Template\Filter\Interceptor->filter()
+#6 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Element/AbstractBlock.php(1095): Magebit\Attribute\Block\Attribute->_toHtml()
+#7 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Element/AbstractBlock.php(1099): Magento\Framework\View\Element\AbstractBlock->Magento\Framework\View\Element\{closure}()
+#8 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Element/AbstractBlock.php(660): Magento\Framework\View\Element\AbstractBlock->_loadCache()
+#9 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(578): Magento\Framework\View\Element\AbstractBlock->toHtml()
+#10 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(555): Magento\Framework\View\Layout->_renderBlock()
+#11 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#12 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#13 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#14 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#15 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#16 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#17 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#18 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#19 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#20 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#21 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#22 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#23 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#24 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#25 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#26 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#27 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#28 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#29 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#30 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#31 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#32 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#33 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#34 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#35 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#36 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#37 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#38 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#39 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#40 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#41 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#42 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#43 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#44 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(975): Magento\Framework\View\Layout\Interceptor->renderElement()
+#45 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\Layout->getOutput()
+#46 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\View\Layout\Interceptor->___callParent()
+#47 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\View\Layout\Interceptor->Magento\Framework\Interception\{closure}()
+#48 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(347): Magento\Framework\View\Layout\Interceptor->___callPlugins()
+#49 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Result/Page.php(260): Magento\Framework\View\Layout\Interceptor->getOutput()
+#50 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Result/Layout.php(171): Magento\Framework\View\Result\Page->render()
+#51 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\Result\Layout->renderResult()
+#52 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\View\Result\Page\Interceptor->___callParent()
+#53 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\View\Result\Page\Interceptor->Magento\Framework\Interception\{closure}()
+#54 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Result/Page/Interceptor.php(95): Magento\Framework\View\Result\Page\Interceptor->___callPlugins()
+#55 /home/edgarspujats/fashion-site/vendor/magento/framework/App/Http.php(120): Magento\Framework\View\Result\Page\Interceptor->renderResult()
+#56 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#57 /home/edgarspujats/fashion-site/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#58 /home/edgarspujats/fashion-site/pub/index.php(34): Magento\Framework\App\Bootstrap->run()
+#59 {main} [] []
+[2022-10-26T14:03:04.279187+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Venustheme/fasony/en_US/images/logo.png' [] []
+[2022-10-26T14:03:04.279336+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Venustheme/fasony/en_US/images/logo.png' [] []
+[2022-10-26T14:03:04.296937+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:03:04.313619+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:03:04.553232+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:03:34.030102+00:00] main.CRITICAL: InvalidArgumentException: Argument 'value' must be type of string, NULL given. in /home/edgarspujats/fashion-site/vendor/magento/framework/Filter/Template.php:177
+Stack trace:
+#0 /home/edgarspujats/fashion-site/vendor/magento/module-email/Model/Template/Filter.php(1106): Magento\Framework\Filter\Template->filter()
+#1 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Email\Model\Template\Filter->filter()
+#2 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Widget\Model\Template\Filter\Interceptor->___callParent()
+#3 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Widget\Model\Template\Filter\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /home/edgarspujats/fashion-site/generated/code/Magento/Widget/Model/Template/Filter/Interceptor.php(284): Magento\Widget\Model\Template\Filter\Interceptor->___callPlugins()
+#5 /home/edgarspujats/fashion-site/app/code/Magebit/Attribute/Block/Attribute.php(20): Magento\Widget\Model\Template\Filter\Interceptor->filter()
+#6 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Element/AbstractBlock.php(1095): Magebit\Attribute\Block\Attribute->_toHtml()
+#7 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Element/AbstractBlock.php(1099): Magento\Framework\View\Element\AbstractBlock->Magento\Framework\View\Element\{closure}()
+#8 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Element/AbstractBlock.php(660): Magento\Framework\View\Element\AbstractBlock->_loadCache()
+#9 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(578): Magento\Framework\View\Element\AbstractBlock->toHtml()
+#10 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(555): Magento\Framework\View\Layout->_renderBlock()
+#11 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#12 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#13 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#14 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#15 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#16 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#17 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#18 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#19 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#20 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#21 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#22 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#23 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#24 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#25 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#26 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#27 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#28 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#29 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#30 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#31 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#32 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#33 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#34 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#35 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#36 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#37 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#38 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#39 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#40 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#41 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#42 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#43 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#44 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(975): Magento\Framework\View\Layout\Interceptor->renderElement()
+#45 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\Layout->getOutput()
+#46 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\View\Layout\Interceptor->___callParent()
+#47 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\View\Layout\Interceptor->Magento\Framework\Interception\{closure}()
+#48 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(347): Magento\Framework\View\Layout\Interceptor->___callPlugins()
+#49 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Result/Page.php(260): Magento\Framework\View\Layout\Interceptor->getOutput()
+#50 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Result/Layout.php(171): Magento\Framework\View\Result\Page->render()
+#51 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\Result\Layout->renderResult()
+#52 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\View\Result\Page\Interceptor->___callParent()
+#53 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\View\Result\Page\Interceptor->Magento\Framework\Interception\{closure}()
+#54 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Result/Page/Interceptor.php(95): Magento\Framework\View\Result\Page\Interceptor->___callPlugins()
+#55 /home/edgarspujats/fashion-site/vendor/magento/framework/App/Http.php(120): Magento\Framework\View\Result\Page\Interceptor->renderResult()
+#56 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#57 /home/edgarspujats/fashion-site/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#58 /home/edgarspujats/fashion-site/pub/index.php(34): Magento\Framework\App\Bootstrap->run()
+#59 {main} [] []
+[2022-10-26T14:03:34.099684+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Venustheme/fasony/en_US/images/logo.png' [] []
+[2022-10-26T14:03:34.099814+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Venustheme/fasony/en_US/images/logo.png' [] []
+[2022-10-26T14:03:34.102907+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:03:34.115667+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:03:34.394125+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:03:44.442563+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"servers":[{"Laminas\\Uri\\Http":"http://fashion.local/"}],"formattedTagsChunk":".*"}} []
+[2022-10-26T14:03:51.411240+00:00] main.CRITICAL: InvalidArgumentException: Argument 'value' must be type of string, NULL given. in /home/edgarspujats/fashion-site/vendor/magento/framework/Filter/Template.php:177
+Stack trace:
+#0 /home/edgarspujats/fashion-site/vendor/magento/module-email/Model/Template/Filter.php(1106): Magento\Framework\Filter\Template->filter()
+#1 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Email\Model\Template\Filter->filter()
+#2 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Widget\Model\Template\Filter\Interceptor->___callParent()
+#3 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Widget\Model\Template\Filter\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /home/edgarspujats/fashion-site/generated/code/Magento/Widget/Model/Template/Filter/Interceptor.php(284): Magento\Widget\Model\Template\Filter\Interceptor->___callPlugins()
+#5 /home/edgarspujats/fashion-site/app/code/Magebit/Attribute/Block/Attribute.php(20): Magento\Widget\Model\Template\Filter\Interceptor->filter()
+#6 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Element/AbstractBlock.php(1095): Magebit\Attribute\Block\Attribute->_toHtml()
+#7 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Element/AbstractBlock.php(1099): Magento\Framework\View\Element\AbstractBlock->Magento\Framework\View\Element\{closure}()
+#8 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Element/AbstractBlock.php(660): Magento\Framework\View\Element\AbstractBlock->_loadCache()
+#9 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(578): Magento\Framework\View\Element\AbstractBlock->toHtml()
+#10 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(555): Magento\Framework\View\Layout->_renderBlock()
+#11 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#12 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#13 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#14 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#15 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#16 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#17 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#18 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#19 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#20 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#21 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#22 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#23 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#24 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#25 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#26 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#27 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#28 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#29 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#30 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#31 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#32 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#33 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#34 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#35 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#36 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#37 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#38 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#39 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement()
+#40 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#41 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement()
+#42 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement()
+#43 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(140): Magento\Framework\View\Layout->renderElement()
+#44 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Layout.php(975): Magento\Framework\View\Layout\Interceptor->renderElement()
+#45 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\Layout->getOutput()
+#46 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\View\Layout\Interceptor->___callParent()
+#47 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\View\Layout\Interceptor->Magento\Framework\Interception\{closure}()
+#48 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Layout/Interceptor.php(347): Magento\Framework\View\Layout\Interceptor->___callPlugins()
+#49 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Result/Page.php(260): Magento\Framework\View\Layout\Interceptor->getOutput()
+#50 /home/edgarspujats/fashion-site/vendor/magento/framework/View/Result/Layout.php(171): Magento\Framework\View\Result\Page->render()
+#51 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\Result\Layout->renderResult()
+#52 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\View\Result\Page\Interceptor->___callParent()
+#53 /home/edgarspujats/fashion-site/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\View\Result\Page\Interceptor->Magento\Framework\Interception\{closure}()
+#54 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/View/Result/Page/Interceptor.php(95): Magento\Framework\View\Result\Page\Interceptor->___callPlugins()
+#55 /home/edgarspujats/fashion-site/vendor/magento/framework/App/Http.php(120): Magento\Framework\View\Result\Page\Interceptor->renderResult()
+#56 /home/edgarspujats/fashion-site/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#57 /home/edgarspujats/fashion-site/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#58 /home/edgarspujats/fashion-site/pub/index.php(34): Magento\Framework\App\Bootstrap->run()
+#59 {main} [] []
+[2022-10-26T14:03:51.540655+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Venustheme/fasony/en_US/images/logo.png' [] []
+[2022-10-26T14:03:51.540929+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Venustheme/fasony/en_US/images/logo.png' [] []
+[2022-10-26T14:03:51.568097+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:03:51.592280+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:03:51.873026+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:05:49.361099+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Venustheme/fasony/en_US/images/logo.png' [] []
+[2022-10-26T14:05:49.361208+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Venustheme/fasony/en_US/images/logo.png' [] []
+[2022-10-26T14:05:49.368121+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:05:49.383678+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:05:49.555893+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:06:00.349144+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Venustheme/fasony/en_US/images/logo.png' [] []
+[2022-10-26T14:06:00.349306+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Venustheme/fasony/en_US/images/logo.png' [] []
+[2022-10-26T14:06:00.360504+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:06:00.376075+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:06:00.541236+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:06:06.470554+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"servers":[{"Laminas\\Uri\\Http":"http://fashion.local/"}],"formattedTagsChunk":".*"}} []
+[2022-10-26T14:06:11.684896+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Venustheme/fasony/en_US/images/logo.png' [] []
+[2022-10-26T14:06:11.685026+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Venustheme/fasony/en_US/images/logo.png' [] []
+[2022-10-26T14:06:11.704393+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:06:11.722864+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:06:11.919113+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:11:53.727719+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Venustheme/fasony/en_US/images/logo.png' [] []
+[2022-10-26T14:11:53.727973+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Venustheme/fasony/en_US/images/logo.png' [] []
+[2022-10-26T14:11:53.737069+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:11:53.751660+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:11:53.933907+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:12:20.486779+00:00] main.ERROR: Warning: Cannot modify header information - headers already sent by (output started at /home/edgarspujats/fashion-site/pub/index.php:11) in /home/edgarspujats/fashion-site/vendor/magento/framework/Stdlib/Cookie/PhpCookieManager.php on line 152 [] []
+[2022-10-26T14:12:20.569904+00:00] main.ERROR: Warning: Cannot modify header information - headers already sent by (output started at /home/edgarspujats/fashion-site/pub/index.php:11) in /home/edgarspujats/fashion-site/vendor/magento/framework/Stdlib/Cookie/PhpCookieManager.php on line 152 [] []
+[2022-10-26T14:13:38.471660+00:00] main.ERROR: Warning: Cannot modify header information - headers already sent by (output started at /home/edgarspujats/fashion-site/pub/index.php:11) in /home/edgarspujats/fashion-site/vendor/magento/framework/Stdlib/Cookie/PhpCookieManager.php on line 152 [] []
+[2022-10-26T14:13:38.541781+00:00] main.ERROR: Warning: Cannot modify header information - headers already sent by (output started at /home/edgarspujats/fashion-site/pub/index.php:11) in /home/edgarspujats/fashion-site/vendor/magento/framework/Stdlib/Cookie/PhpCookieManager.php on line 152 [] []
+[2022-10-26T14:14:16.603190+00:00] main.ERROR: Warning: Cannot modify header information - headers already sent by (output started at /home/edgarspujats/fashion-site/pub/index.php:11) in /home/edgarspujats/fashion-site/vendor/magento/framework/Stdlib/Cookie/PhpCookieManager.php on line 152 [] []
+[2022-10-26T14:14:16.664010+00:00] main.ERROR: Warning: Cannot modify header information - headers already sent by (output started at /home/edgarspujats/fashion-site/pub/index.php:11) in /home/edgarspujats/fashion-site/vendor/magento/framework/Stdlib/Cookie/PhpCookieManager.php on line 152 [] []
+[2022-10-26T14:14:21.832334+00:00] main.ERROR: Warning: Cannot modify header information - headers already sent by (output started at /home/edgarspujats/fashion-site/pub/index.php:11) in /home/edgarspujats/fashion-site/vendor/magento/framework/Stdlib/Cookie/PhpCookieManager.php on line 152 [] []
+[2022-10-26T14:14:21.888066+00:00] main.ERROR: Warning: Cannot modify header information - headers already sent by (output started at /home/edgarspujats/fashion-site/pub/index.php:11) in /home/edgarspujats/fashion-site/vendor/magento/framework/Stdlib/Cookie/PhpCookieManager.php on line 152 [] []
+[2022-10-26T14:17:54.538218+00:00] main.ERROR: Warning: Cannot modify header information - headers already sent by (output started at /home/edgarspujats/fashion-site/pub/index.php:11) in /home/edgarspujats/fashion-site/vendor/magento/framework/Stdlib/Cookie/PhpCookieManager.php on line 152 [] []
+[2022-10-26T14:17:54.606126+00:00] main.ERROR: Warning: Cannot modify header information - headers already sent by (output started at /home/edgarspujats/fashion-site/pub/index.php:11) in /home/edgarspujats/fashion-site/vendor/magento/framework/Stdlib/Cookie/PhpCookieManager.php on line 152 [] []
+[2022-10-26T14:17:55.426484+00:00] main.ERROR: Warning: Cannot modify header information - headers already sent by (output started at /home/edgarspujats/fashion-site/pub/index.php:11) in /home/edgarspujats/fashion-site/vendor/magento/framework/Stdlib/Cookie/PhpCookieManager.php on line 152 [] []
+[2022-10-26T14:17:55.483887+00:00] main.ERROR: Warning: Cannot modify header information - headers already sent by (output started at /home/edgarspujats/fashion-site/pub/index.php:11) in /home/edgarspujats/fashion-site/vendor/magento/framework/Stdlib/Cookie/PhpCookieManager.php on line 152 [] []
+[2022-10-26T14:22:06.562232+00:00] main.ERROR: Warning: Cannot modify header information - headers already sent by (output started at /home/edgarspujats/fashion-site/pub/index.php:11) in /home/edgarspujats/fashion-site/vendor/magento/framework/Stdlib/Cookie/PhpCookieManager.php on line 152 [] []
+[2022-10-26T14:22:06.777005+00:00] main.ERROR: Warning: Cannot modify header information - headers already sent by (output started at /home/edgarspujats/fashion-site/pub/index.php:11) in /home/edgarspujats/fashion-site/vendor/magento/framework/Stdlib/Cookie/PhpCookieManager.php on line 152 [] []
+[2022-10-26T14:23:43.561925+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:23:49.089706+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:23:49.152109+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Venustheme/fasony/en_US/images/logo.png' [] []
+[2022-10-26T14:23:49.152382+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Venustheme/fasony/en_US/images/logo.png' [] []
+[2022-10-26T14:23:49.271192+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:23:49.479667+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:24:28.407775+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Venustheme/fasony/en_US/images/logo.png' [] []
+[2022-10-26T14:24:28.408110+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Venustheme/fasony/en_US/images/logo.png' [] []
+[2022-10-26T14:24:28.563073+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T14:24:28.643034+00:00] main.ERROR: Your home URL matches your site URL. Change your home URL to something like http://fashion.local/blog [] []
+[2022-10-26T15:26:29.465437+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2022-10-26T15:26:29.465816+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2022-10-26T15:26:29.465936+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2022-10-26T15:26:29.466063+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2022-10-26T15:26:29.466192+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2022-10-26T15:26:29.466295+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2022-10-26T15:26:29.466404+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2022-10-26T15:26:29.466481+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2022-10-26T15:26:29.466557+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2022-10-26T15:26:29.466634+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2022-10-26T15:26:29.466707+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2022-10-26T15:26:29.466781+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2022-10-26T15:26:29.466854+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2022-10-26T15:26:29.466925+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2022-10-26T15:26:29.466997+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2022-10-26T15:26:29.467069+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2022-10-26T15:26:29.467294+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2022-10-26T15:26:29.467374+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2022-10-26T15:26:29.467521+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2022-10-26T15:26:29.467643+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2022-10-26T15:26:29.467766+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2022-10-26T15:26:29.467876+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2022-10-26T15:26:29.467950+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2022-10-26T15:26:29.468051+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2022-10-26T15:26:29.468136+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2022-10-26T15:26:29.468222+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2022-10-26T15:26:31.603967+00:00] main.DEBUG: URI '/admin/cms/page/index/key/c8c3995c61eb8130d1345358f8fc55c6cb04fe001fec43b9b4e059ac7cb1498d/'' cannot be accessed with POST method (Magento\Cms\Controller\Adminhtml\Page\Index) [] []
+[2022-10-26T15:26:31.604875+00:00] main.DEBUG: Request validation failed for action "Magento\Cms\Controller\Adminhtml\Page\Index\Interceptor" {"exception":"[object] (Magento\\Framework\\App\\Request\\InvalidRequestException(code: 0): Invalid request received at /home/edgarspujats/fashion-site/vendor/magento/framework/App/Request/HttpMethodValidator.php:69)"} []
+[2022-10-26T15:26:31.716250+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://fashion.local/admin/cms/page/index/key/c8c3995c61eb8130d1345358f8fc55c6cb04fe001fec43b9b4e059ac7cb1498d/","invalidateInfo":{"tags":["BACKEND_MAINMENU"],"mode":"matchingAnyTag"}} []
+[2022-10-26T15:26:31.777781+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://fashion.local/admin/cms/page/index/key/c8c3995c61eb8130d1345358f8fc55c6cb04fe001fec43b9b4e059ac7cb1498d/","invalidateInfo":{"tags":["PB_EDITOR_CONFIG","CONFIG"],"mode":"matchingTag"}} []
+[2022-10-26T15:26:31.789433+00:00] main.INFO: Item Magento_Backend::system_currency was removed [] []
+[2022-10-26T15:26:31.795744+00:00] main.INFO: Add of item with id Magento_AdminNotification::system_adminnotification was processed [] []
+[2022-10-26T15:26:31.795917+00:00] main.INFO: Add of item with id Magento_Theme::design_config was processed [] []
+[2022-10-26T15:26:31.795993+00:00] main.INFO: Add of item with id Magento_Theme::system_design_theme was processed [] []
+[2022-10-26T15:26:31.796085+00:00] main.INFO: Add of item with id Magento_Config::system_config was processed [] []
+[2022-10-26T15:26:31.796156+00:00] main.INFO: Add of item with id Magento_Backend::system_design_schedule was processed [] []
+[2022-10-26T15:26:31.796226+00:00] main.INFO: Add of item with id Magento_Backend::system_store was processed [] []
+[2022-10-26T15:26:31.796295+00:00] main.INFO: Add of item with id Magento_Backend::dashboard was processed [] []
+[2022-10-26T15:26:31.796364+00:00] main.INFO: Add of item with id Magento_Backend::system was processed [] []
+[2022-10-26T15:26:31.796452+00:00] main.INFO: Add of item with id Magento_Backend::system_tools was processed [] []
+[2022-10-26T15:26:31.796544+00:00] main.INFO: Add of item with id Magento_Backend::system_design was processed [] []
+[2022-10-26T15:26:31.796622+00:00] main.INFO: Add of item with id Magento_Backend::system_convert was processed [] []
+[2022-10-26T15:26:31.796710+00:00] main.INFO: Add of item with id Magento_Backend::system_cache was processed [] []
+[2022-10-26T15:26:31.796780+00:00] main.INFO: Add of item with id Magento_Backend::marketing was processed [] []
+[2022-10-26T15:26:31.796869+00:00] main.INFO: Add of item with id Magento_Backend::marketing_communications was processed [] []
+[2022-10-26T15:26:31.796939+00:00] main.INFO: Add of item with id Magento_Backend::marketing_seo was processed [] []
+[2022-10-26T15:26:31.797008+00:00] main.INFO: Add of item with id Magento_Backend::marketing_user_content was processed [] []
+[2022-10-26T15:26:31.797075+00:00] main.INFO: Add of item with id Magento_Backend::content was processed [] []
+[2022-10-26T15:26:31.797143+00:00] main.INFO: Add of item with id Magento_Backend::content_elements was processed [] []
+[2022-10-26T15:26:31.797211+00:00] main.INFO: Add of item with id Magento_Backend::stores was processed [] []
+[2022-10-26T15:26:31.797320+00:00] main.INFO: Add of item with id Magento_Backend::stores_settings was processed [] []
+[2022-10-26T15:26:31.797391+00:00] main.INFO: Add of item with id Magento_Backend::stores_attributes was processed [] []
+[2022-10-26T15:26:31.797459+00:00] main.INFO: Add of item with id Magento_Backend::other_settings was processed [] []
+[2022-10-26T15:26:31.797542+00:00] main.INFO: Add of item with id Magento_Backend::system_other_settings was processed [] []
+[2022-10-26T15:26:31.797614+00:00] main.INFO: Add of item with id Magento_Customer::customer was processed [] []
+[2022-10-26T15:26:31.797704+00:00] main.INFO: Add of item with id Magento_Customer::customer_manage was processed [] []
+[2022-10-26T15:26:31.797775+00:00] main.INFO: Add of item with id Magento_Customer::customer_online was processed [] []
+[2022-10-26T15:26:31.797844+00:00] main.INFO: Add of item with id Magento_Customer::customer_group was processed [] []
+[2022-10-26T15:26:31.797912+00:00] main.INFO: Add of item with id Magento_User::system_acl was processed [] []
+[2022-10-26T15:26:31.798000+00:00] main.INFO: Add of item with id Magento_User::system_acl_users was processed [] []
+[2022-10-26T15:26:31.798070+00:00] main.INFO: Add of item with id Magento_User::system_acl_roles was processed [] []
+[2022-10-26T15:26:31.798171+00:00] main.INFO: Add of item with id Magento_User::system_acl_locks was processed [] []
+[2022-10-26T15:26:31.798267+00:00] main.INFO: Add of item with id Magento_Backup::system_tools_backup was processed [] []
+[2022-10-26T15:26:31.798337+00:00] main.INFO: Add of item with id Magento_Indexer::system_index was processed [] []
+[2022-10-26T15:26:31.798408+00:00] main.INFO: Add of item with id Magento_Variable::system_variable was processed [] []
+[2022-10-26T15:26:31.798507+00:00] main.INFO: Add of item with id Magento_Cms::cms_page was processed [] []
+[2022-10-26T15:26:31.798579+00:00] main.INFO: Add of item with id Magento_Cms::cms_block was processed [] []
+[2022-10-26T15:26:31.798678+00:00] main.INFO: Add of item with id Magento_Search::search_terms was processed [] []
+[2022-10-26T15:26:31.798764+00:00] main.INFO: Add of item with id Magento_Search::search_synonyms was processed [] []
+[2022-10-26T15:26:31.798833+00:00] main.INFO: Add of item with id Magento_Catalog::catalog was processed [] []
+[2022-10-26T15:26:31.798922+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_products was processed [] []
+[2022-10-26T15:26:31.798993+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_categories was processed [] []
+[2022-10-26T15:26:31.799081+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_attributes was processed [] []
+[2022-10-26T15:26:31.799152+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_sets was processed [] []
+[2022-10-26T15:26:31.799240+00:00] main.INFO: Add of item with id Magento_Catalog::inventory was processed [] []
+[2022-10-26T15:26:31.799320+00:00] main.INFO: Add of item with id Magento_CatalogRule::promo was processed [] []
+[2022-10-26T15:26:31.799411+00:00] main.INFO: Add of item with id Magento_CatalogRule::promo_catalog was processed [] []
+[2022-10-26T15:26:31.799482+00:00] main.INFO: Add of item with id Magento_MediaGalleryUi::media was processed [] []
+[2022-10-26T15:26:31.799570+00:00] main.INFO: Add of item with id Magento_MediaGalleryUi::media_gallery was processed [] []
+[2022-10-26T15:26:31.799641+00:00] main.INFO: Add of item with id Magento_Integration::system_extensions was processed [] []
+[2022-10-26T15:26:31.799729+00:00] main.INFO: Add of item with id Magento_Integration::system_integrations was processed [] []
+[2022-10-26T15:26:31.799798+00:00] main.INFO: Add of item with id Magento_Sales::sales was processed [] []
+[2022-10-26T15:26:31.799886+00:00] main.INFO: Add of item with id Magento_Sales::sales_operation was processed [] []
+[2022-10-26T15:26:31.799976+00:00] main.INFO: Add of item with id Magento_Sales::sales_order was processed [] []
+[2022-10-26T15:26:31.800046+00:00] main.INFO: Add of item with id Magento_Sales::sales_invoice was processed [] []
+[2022-10-26T15:26:31.800114+00:00] main.INFO: Add of item with id Magento_Sales::sales_shipment was processed [] []
+[2022-10-26T15:26:31.800182+00:00] main.INFO: Add of item with id Magento_Sales::sales_creditmemo was processed [] []
+[2022-10-26T15:26:31.800250+00:00] main.INFO: Add of item with id Magento_Sales::sales_transactions was processed [] []
+[2022-10-26T15:26:31.800318+00:00] main.INFO: Add of item with id Magento_Sales::system_order_statuses was processed [] []
+[2022-10-26T15:26:31.800395+00:00] main.INFO: Add of item with id Magento_Widget::cms_widget_instance was processed [] []
+[2022-10-26T15:26:31.800485+00:00] main.INFO: Add of item with id Magento_Analytics::business_intelligence was processed [] []
+[2022-10-26T15:26:31.800575+00:00] main.INFO: Add of item with id Magento_Analytics::advanced_reporting was processed [] []
+[2022-10-26T15:26:31.800645+00:00] main.INFO: Add of item with id Magento_Analytics::bi_essentials was processed [] []
+[2022-10-26T15:26:31.800734+00:00] main.INFO: Add of item with id Magento_Downloadable::report_products_downloads was processed [] []
+[2022-10-26T15:26:31.800836+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_import was processed [] []
+[2022-10-26T15:26:31.800906+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_export was processed [] []
+[2022-10-26T15:26:31.800974+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_history was processed [] []
+[2022-10-26T15:26:31.801062+00:00] main.INFO: Add of item with id Magento_Email::template was processed [] []
+[2022-10-26T15:26:31.801133+00:00] main.INFO: Add of item with id Magento_EncryptionKey::system_crypt_key was processed [] []
+[2022-10-26T15:26:31.801203+00:00] main.INFO: Add of item with id Magento_Reports::report was processed [] []
+[2022-10-26T15:26:31.801273+00:00] main.INFO: Add of item with id Magento_Reports::report_marketing was processed [] []
+[2022-10-26T15:26:31.801357+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot was processed [] []
+[2022-10-26T15:26:31.801485+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_sales was processed [] []
+[2022-10-26T15:26:31.801586+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_tax was processed [] []
+[2022-10-26T15:26:31.801655+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_invoiced was processed [] []
+[2022-10-26T15:26:31.801724+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_shipping was processed [] []
+[2022-10-26T15:26:31.801791+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_refunded was processed [] []
+[2022-10-26T15:26:31.801858+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_coupons was processed [] []
+[2022-10-26T15:26:31.801946+00:00] main.INFO: Add of item with id Magento_Reports::report_shopcart_product was processed [] []
+[2022-10-26T15:26:31.802016+00:00] main.INFO: Add of item with id Magento_Reports::report_shopcart_abandoned was processed [] []
+[2022-10-26T15:26:31.802087+00:00] main.INFO: Add of item with id Magento_Reports::report_products was processed [] []
+[2022-10-26T15:26:31.802155+00:00] main.INFO: Add of item with id Magento_Reports::report_products_bestsellers was processed [] []
+[2022-10-26T15:26:31.802223+00:00] main.INFO: Add of item with id Magento_Reports::report_products_sold was processed [] []
+[2022-10-26T15:26:31.802290+00:00] main.INFO: Add of item with id Magento_Reports::report_products_viewed was processed [] []
+[2022-10-26T15:26:31.802357+00:00] main.INFO: Add of item with id Magento_Reports::report_products_lowstock was processed [] []
+[2022-10-26T15:26:31.802425+00:00] main.INFO: Add of item with id Magento_Reports::report_customers was processed [] []
+[2022-10-26T15:26:31.802512+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_accounts was processed [] []
+[2022-10-26T15:26:31.802582+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_totals was processed [] []
+[2022-10-26T15:26:31.802650+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_orders was processed [] []
+[2022-10-26T15:26:31.802718+00:00] main.INFO: Add of item with id Magento_Reports::report_statistics was processed [] []
+[2022-10-26T15:26:31.802805+00:00] main.INFO: Add of item with id Magento_Reports::report_statistics_refresh was processed [] []
+[2022-10-26T15:26:31.802875+00:00] main.INFO: Add of item with id Magento_Search::report_search_term was processed [] []
+[2022-10-26T15:26:31.802945+00:00] main.INFO: Add of item with id Magento_LoginAsCustomerLog::login_log was processed [] []
+[2022-10-26T15:26:31.803013+00:00] main.INFO: Add of item with id Magento_Marketplace::partners was processed [] []
+[2022-10-26T15:26:31.803082+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_template was processed [] []
+[2022-10-26T15:26:31.803150+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_queue was processed [] []
+[2022-10-26T15:26:31.803218+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_subscriber was processed [] []
+[2022-10-26T15:26:31.803298+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_problem was processed [] []
+[2022-10-26T15:26:31.803367+00:00] main.INFO: Add of item with id Magento_SalesRule::promo_quote was processed [] []
+[2022-10-26T15:26:31.803435+00:00] main.INFO: Add of item with id Magento_Sitemap::catalog_sitemap was processed [] []
+[2022-10-26T15:26:31.803502+00:00] main.INFO: Add of item with id Magento_PageBuilder::templates was processed [] []
+[2022-10-26T15:26:31.803570+00:00] main.INFO: Add of item with id Magento_Paypal::report_salesroot_paypal_settlement_reports was processed [] []
+[2022-10-26T15:26:31.803643+00:00] main.INFO: Add of item with id Magento_Paypal::paypal_billing_agreement was processed [] []
+[2022-10-26T15:26:31.803711+00:00] main.INFO: Add of item with id Magento_CheckoutAgreements::sales_checkoutagreement was processed [] []
+[2022-10-26T15:26:31.803779+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_ratings was processed [] []
+[2022-10-26T15:26:31.803867+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_pending was processed [] []
+[2022-10-26T15:26:31.803937+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_reviews_all was processed [] []
+[2022-10-26T15:26:31.804005+00:00] main.INFO: Add of item with id Magento_Review::report_review was processed [] []
+[2022-10-26T15:26:31.804093+00:00] main.INFO: Add of item with id Magento_Review::report_review_customer was processed [] []
+[2022-10-26T15:26:31.804164+00:00] main.INFO: Add of item with id Magento_Review::report_review_product was processed [] []
+[2022-10-26T15:26:31.804232+00:00] main.INFO: Add of item with id Magento_UrlRewrite::urlrewrite was processed [] []
+[2022-10-26T15:26:31.804300+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax was processed [] []
+[2022-10-26T15:26:31.804389+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax_rules was processed [] []
+[2022-10-26T15:26:31.804460+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax_rates was processed [] []
+[2022-10-26T15:26:31.804529+00:00] main.INFO: Add of item with id Magento_TaxImportExport::system_convert_tax was processed [] []
+[2022-10-26T15:26:31.804598+00:00] main.INFO: Add of item with id Magento_AsynchronousOperations::system_magento_logging was processed [] []
+[2022-10-26T15:26:31.804686+00:00] main.INFO: Add of item with id Magento_AsynchronousOperations::system_magento_logging_bulk_operations was processed [] []
+[2022-10-26T15:26:31.804757+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency was processed [] []
+[2022-10-26T15:26:31.804844+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_rates was processed [] []
+[2022-10-26T15:26:31.804915+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_symbols was processed [] []
+[2022-10-26T15:26:31.804983+00:00] main.INFO: Add of item with id FishPig_WordPress::wordpress was processed [] []
+[2022-10-26T15:26:31.805071+00:00] main.INFO: Add of item with id FishPig_WordPress::config was processed [] []
+[2022-10-26T15:26:31.805141+00:00] main.INFO: Add of item with id FishPig_WordPress::autologin was processed [] []
+[2022-10-26T15:26:31.805210+00:00] main.INFO: Add of item with id PayPal_Braintree::settlement_report was processed [] []
+[2022-10-26T15:26:31.805278+00:00] main.INFO: Add of item with id PayPal_Braintree::virtual_terminal was processed [] []
+[2022-10-26T15:26:31.805345+00:00] main.INFO: Add of item with id Ves_Setup::theme was processed [] []
+[2022-10-26T15:26:31.805439+00:00] main.INFO: Add of item with id Ves_Setup::tools_section was processed [] []
+[2022-10-26T15:26:31.805539+00:00] main.INFO: Add of item with id Ves_Setup::import was processed [] []
+[2022-10-26T15:26:31.805610+00:00] main.INFO: Add of item with id Ves_Setup::export was processed [] []
+[2022-10-26T15:26:32.943167+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2022-10-26T15:26:49.290616+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2022-10-26T15:26:56.845483+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2022-10-26T15:27:06.204199+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2022-10-26T15:27:12.222903+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://fashion.local/admin/cms/page/save/key/38db56d943b3a7a81546c829f3b0d347b4197192c47bed46507952d281a837ad/","invalidateInfo":{"tags":["cms_p"],"mode":"matchingAnyTag"}} []
+[2022-10-26T15:27:12.224933+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://fashion.local/admin/cms/page/save/key/38db56d943b3a7a81546c829f3b0d347b4197192c47bed46507952d281a837ad/","invalidateInfo":{"servers":[{"Laminas\\Uri\\Uri":"http://fashion.local:80/"}],"formattedTagsChunk":"((^|,)cms_p_1(,|$))"}} []
+[2022-10-26T15:27:12.361850+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2022-10-26T15:27:23.448035+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2022-10-26T15:27:26.809606+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2022-10-26T15:27:30.431891+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2022-10-26T15:27:33.933103+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2022-10-26T15:27:37.215295+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2022-10-26T15:28:13.899677+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://fashion.local/admin/cms/page/save/key/38db56d943b3a7a81546c829f3b0d347b4197192c47bed46507952d281a837ad/","invalidateInfo":{"tags":["cms_p"],"mode":"matchingAnyTag"}} []
+[2022-10-26T15:28:13.900400+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://fashion.local/admin/cms/page/save/key/38db56d943b3a7a81546c829f3b0d347b4197192c47bed46507952d281a837ad/","invalidateInfo":{"servers":[{"Laminas\\Uri\\Uri":"http://fashion.local:80/"}],"formattedTagsChunk":"((^|,)cms_p_1(,|$))"}} []
+[2022-10-26T15:28:14.034653+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []

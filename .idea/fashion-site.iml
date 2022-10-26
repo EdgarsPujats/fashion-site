@@ -534,6 +534,8 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/magento/module-cms-url-rewrite-graph-ql" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laminas/laminas-diactoros" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/magento/module-admin-adobe-ims" />
+      <excludeFolder url="file://$MODULE_DIR$/dev" />
+      <excludeFolder url="file://$MODULE_DIR$/setup" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
