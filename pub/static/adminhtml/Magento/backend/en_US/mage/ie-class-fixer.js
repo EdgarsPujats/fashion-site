@@ -1,1 +1,0 @@
-/home/edgarspujats/fashion-site/lib/web/mage/ie-class-fixer.js

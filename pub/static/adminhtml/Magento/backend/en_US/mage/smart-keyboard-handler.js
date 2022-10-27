@@ -1,1 +1,0 @@
-/home/edgarspujats/fashion-site/lib/web/mage/smart-keyboard-handler.js

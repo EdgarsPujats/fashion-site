@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Magebit\Attribute\Block;
 
 use Exception;
@@ -15,6 +17,10 @@ class Attribute extends Page
      */
     protected function _toHtml()
     {
-        return $this->getPage()->getData('attribute');
+        try {
+            return $this->getPage()->getData('attribute');
+        } catch (Exception $e) {
+            return '';
+        }
     }
 }

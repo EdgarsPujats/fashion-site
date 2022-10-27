@@ -1,1 +1,0 @@
-/home/edgarspujats/fashion-site/vendor/magento/theme-adminhtml-backend/web/js/theme.js
