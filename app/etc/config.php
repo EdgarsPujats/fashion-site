@@ -327,7 +327,6 @@ return [
         'Magento_WishlistGraphQl' => 1,
         'FishPig_WordPress' => 1,
         'Magebit_Attribute' => 1,
-        'Magebit_Email' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
         'Temando_ShippingRemover' => 1,
