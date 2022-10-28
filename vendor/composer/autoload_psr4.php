@@ -8,6 +8,8 @@ $baseDir = dirname($vendorDir);
 return array(
     'tubalmartin\\CssMin\\' => array($vendorDir . '/tubalmartin/cssmin/src'),
     'phpseclib3\\' => array($vendorDir . '/phpseclib/phpseclib/phpseclib'),
+    'WeltPixel\\GoogleTagManager\\' => array($vendorDir . '/weltpixel/module-google-tag-manager-free'),
+    'WeltPixel\\Backend\\' => array($vendorDir . '/weltpixel/m2-weltpixel-backend'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
     'Webimpress\\SafeWriter\\' => array($vendorDir . '/webimpress/safe-writer/src'),
     'Vault\\' => array($vendorDir . '/csharpru/vault-php/src'),

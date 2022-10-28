@@ -487,6 +487,8 @@ class ComposerStaticInit577050ee7ba9ca0141f574cfadd4c17c
         'aa75ea0761a2f40c1f3b32ad314f86c4' => __DIR__ . '/..' . '/phpseclib/mcrypt_compat/lib/mcrypt.php',
         '38143a9afc50997d55e4815db8489d1c' => __DIR__ . '/..' . '/rector/rector/bootstrap.php',
         '940abd8fb01ee76a36b44f35dcf9783b' => __DIR__ . '/..' . '/weew/helpers-array/src/array.php',
+        '1506602cad1f917a0661dc7b3038b155' => __DIR__ . '/..' . '/weltpixel/m2-weltpixel-backend/registration.php',
+        '25e2bff02de9cc90830af8c19eb07261' => __DIR__ . '/..' . '/weltpixel/module-google-tag-manager-free/registration.php',
         'eda65932675b68b5aee4503e0762d64d' => __DIR__ . '/..' . '/magento/magento2-functional-testing-framework/src/Magento/FunctionalTestingFramework/_bootstrap.php',
         'b4cf39431a4b949eea8aa69ebb3d39da' => __DIR__ . '/../..' . '/app/etc/NonComposerComponentRegistration.php',
     );
@@ -502,6 +504,8 @@ class ComposerStaticInit577050ee7ba9ca0141f574cfadd4c17c
         ),
         'W' => 
         array (
+            'WeltPixel\\GoogleTagManager\\' => 27,
+            'WeltPixel\\Backend\\' => 18,
             'Webmozart\\Assert\\' => 17,
             'Webimpress\\SafeWriter\\' => 22,
         ),
@@ -1042,6 +1046,14 @@ class ComposerStaticInit577050ee7ba9ca0141f574cfadd4c17c
         'phpseclib3\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib',
+        ),
+        'WeltPixel\\GoogleTagManager\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/weltpixel/module-google-tag-manager-free',
+        ),
+        'WeltPixel\\Backend\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/weltpixel/m2-weltpixel-backend',
         ),
         'Webmozart\\Assert\\' => 
         array (

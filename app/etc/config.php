@@ -330,6 +330,8 @@ return [
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
         'Temando_ShippingRemover' => 1,
-        'Ves_Setup' => 1
+        'Ves_Setup' => 1,
+        'WeltPixel_Backend' => 1,
+        'WeltPixel_GoogleTagManager' => 1
     ]
 ];

@@ -332,17 +332,17 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.240.3",
-            "version_normalized": "3.240.3.0",
+            "version": "3.240.4",
+            "version_normalized": "3.240.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "2080f747489b2d4ca291dcfb8078db60dbb6c255"
+                "reference": "69c7fa97862694d8c0c03f2e905c7fe05683bee9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2080f747489b2d4ca291dcfb8078db60dbb6c255",
-                "reference": "2080f747489b2d4ca291dcfb8078db60dbb6c255",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/69c7fa97862694d8c0c03f2e905c7fe05683bee9",
+                "reference": "69c7fa97862694d8c0c03f2e905c7fe05683bee9",
                 "shasum": ""
             },
             "require": {
@@ -382,7 +382,7 @@
                 "ext-openssl": "Allows working with CloudFront private distributions and verifying received SNS messages",
                 "ext-sockets": "To use client-side monitoring"
             },
-            "time": "2022-10-26T18:17:08+00:00",
+            "time": "2022-10-27T19:19:40+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -423,7 +423,7 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.240.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.240.4"
             },
             "install-path": "../aws/aws-sdk-php"
         },
@@ -4569,17 +4569,17 @@
         },
         {
             "name": "laminas/laminas-modulemanager",
-            "version": "2.13.0",
-            "version_normalized": "2.13.0.0",
+            "version": "2.14.0",
+            "version_normalized": "2.14.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-modulemanager.git",
-                "reference": "6cabb26f472dc16cc7e582db7713d1eb9c23f87c"
+                "reference": "fb0a2c34423f7d3321dd7c42dc5fc4db905a99ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-modulemanager/zipball/6cabb26f472dc16cc7e582db7713d1eb9c23f87c",
-                "reference": "6cabb26f472dc16cc7e582db7713d1eb9c23f87c",
+                "url": "https://api.github.com/repos/laminas/laminas-modulemanager/zipball/fb0a2c34423f7d3321dd7c42dc5fc4db905a99ac",
+                "reference": "fb0a2c34423f7d3321dd7c42dc5fc4db905a99ac",
                 "shasum": ""
             },
             "require": {
@@ -4608,7 +4608,7 @@
                 "laminas/laminas-mvc": "Laminas\\Mvc component",
                 "laminas/laminas-servicemanager": "Laminas\\ServiceManager component"
             },
-            "time": "2022-10-22T13:46:45+00:00",
+            "time": "2022-10-28T09:21:04+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -21146,17 +21146,17 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "9.2.17",
-            "version_normalized": "9.2.17.0",
+            "version": "9.2.18",
+            "version_normalized": "9.2.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "aa94dc41e8661fe90c7316849907cba3007b10d8"
+                "reference": "12fddc491826940cf9b7e88ad9664cf51f0f6d0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/aa94dc41e8661fe90c7316849907cba3007b10d8",
-                "reference": "aa94dc41e8661fe90c7316849907cba3007b10d8",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/12fddc491826940cf9b7e88ad9664cf51f0f6d0a",
+                "reference": "12fddc491826940cf9b7e88ad9664cf51f0f6d0a",
                 "shasum": ""
             },
             "require": {
@@ -21181,7 +21181,7 @@
                 "ext-pcov": "*",
                 "ext-xdebug": "*"
             },
-            "time": "2022-08-30T12:24:04+00:00",
+            "time": "2022-10-27T13:35:33+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -21214,7 +21214,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.17"
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.18"
             },
             "funding": [
                 {
@@ -21479,17 +21479,17 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.25",
-            "version_normalized": "9.5.25.0",
+            "version": "9.5.26",
+            "version_normalized": "9.5.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "3e6f90ca7e3d02025b1d147bd8d4a89fd4ca8a1d"
+                "reference": "851867efcbb6a1b992ec515c71cdcf20d895e9d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3e6f90ca7e3d02025b1d147bd8d4a89fd4ca8a1d",
-                "reference": "3e6f90ca7e3d02025b1d147bd8d4a89fd4ca8a1d",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/851867efcbb6a1b992ec515c71cdcf20d895e9d2",
+                "reference": "851867efcbb6a1b992ec515c71cdcf20d895e9d2",
                 "shasum": ""
             },
             "require": {
@@ -21525,7 +21525,7 @@
                 "ext-soap": "*",
                 "ext-xdebug": "*"
             },
-            "time": "2022-09-25T03:44:45+00:00",
+            "time": "2022-10-28T06:00:21+00:00",
             "bin": [
                 "phpunit"
             ],
@@ -21564,7 +21564,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.25"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.26"
             },
             "funding": [
                 {
@@ -27056,6 +27056,80 @@
                 "source": "https://github.com/weew/helpers-array/tree/master"
             },
             "install-path": "../weew/helpers-array"
+        },
+        {
+            "name": "weltpixel/m2-weltpixel-backend",
+            "version": "1.11.7",
+            "version_normalized": "1.11.7.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/weltpixel/m2-weltpixel-backend/weltpixel-m2-weltpixel-backend-1.11.7.0.zip",
+                "shasum": "97f59a997e0e6f0f1f5f78051d633883d4e11f50"
+            },
+            "type": "magento2-module",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "WeltPixel\\Backend\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "WeltPixel Backend Module",
+            "install-path": "../weltpixel/m2-weltpixel-backend"
+        },
+        {
+            "name": "weltpixel/module-google-tag-manager",
+            "version": "1.11.7",
+            "version_normalized": "1.11.7.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/weltpixel/module-google-tag-manager/weltpixel-module-google-tag-manager-1.11.7.0.zip",
+                "shasum": "9966379fed7854a390e2f3b59dfa12ea5ec47ade"
+            },
+            "require": {
+                "magento/framework": "103.0.*",
+                "weltpixel/m2-weltpixel-backend": "1.11.7",
+                "weltpixel/module-google-tag-manager-free": "1.11.7"
+            },
+            "type": "metapackage",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "WeltPixel GoogleAnalyticsEnhancedEcommerce Module",
+            "install-path": null
+        },
+        {
+            "name": "weltpixel/module-google-tag-manager-free",
+            "version": "1.11.7",
+            "version_normalized": "1.11.7.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/weltpixel/module-google-tag-manager-free/weltpixel-module-google-tag-manager-free-1.11.7.0.zip",
+                "shasum": "803454352d6898d4e92dc5df239dd452d6ac6865"
+            },
+            "type": "magento2-module",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "WeltPixel\\GoogleTagManager\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "WeltPixel GoogleAnalyticsEnhancedEcommerce Module",
+            "install-path": "../weltpixel/module-google-tag-manager-free"
         },
         {
             "name": "wikimedia/less.php",

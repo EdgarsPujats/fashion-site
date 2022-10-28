@@ -549,6 +549,8 @@
       <path value="$PROJECT_DIR$/vendor/magento/module-cms-url-rewrite-graph-ql" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-diactoros" />
       <path value="$PROJECT_DIR$/vendor/magento/module-admin-adobe-ims" />
+      <path value="$PROJECT_DIR$/vendor/weltpixel/module-google-tag-manager-free" />
+      <path value="$PROJECT_DIR$/vendor/weltpixel/m2-weltpixel-backend" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
