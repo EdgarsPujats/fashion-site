@@ -490,6 +490,7 @@ class ComposerStaticInit577050ee7ba9ca0141f574cfadd4c17c
         '1506602cad1f917a0661dc7b3038b155' => __DIR__ . '/..' . '/weltpixel/m2-weltpixel-backend/registration.php',
         '25e2bff02de9cc90830af8c19eb07261' => __DIR__ . '/..' . '/weltpixel/module-google-tag-manager-free/registration.php',
         'eda65932675b68b5aee4503e0762d64d' => __DIR__ . '/..' . '/magento/magento2-functional-testing-framework/src/Magento/FunctionalTestingFramework/_bootstrap.php',
+        '62008ed0ff26c9aa9e7ca9697420b61d' => __DIR__ . '/..' . '/mailchimp/mc-magento2/registration.php',
         'b4cf39431a4b949eea8aa69ebb3d39da' => __DIR__ . '/../..' . '/app/etc/NonComposerComponentRegistration.php',
     );
 
@@ -997,6 +998,7 @@ class ComposerStaticInit577050ee7ba9ca0141f574cfadd4c17c
         array (
             'Endroid\\QrCode\\' => 15,
             'Elasticsearch\\' => 14,
+            'Ebizmarts\\MailChimp\\' => 20,
         ),
         'D' => 
         array (
@@ -2890,6 +2892,10 @@ class ComposerStaticInit577050ee7ba9ca0141f574cfadd4c17c
         array (
             0 => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch',
         ),
+        'Ebizmarts\\MailChimp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mailchimp/mc-magento2',
+        ),
         'Doctrine\\Instantiator\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
@@ -3038,6 +3044,10 @@ class ComposerStaticInit577050ee7ba9ca0141f574cfadd4c17c
             'Mustache' => 
             array (
                 0 => __DIR__ . '/..' . '/mustache/mustache/src',
+            ),
+            'Mailchimp' => 
+            array (
+                0 => __DIR__ . '/..' . '/ebizmarts/mailchimp-lib/src',
             ),
             'MagentoHackathon\\Composer\\Magento' => 
             array (

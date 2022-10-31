@@ -325,6 +325,7 @@ return [
         'Magento_Wishlist' => 1,
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistGraphQl' => 1,
+        'Ebizmarts_MailChimp' => 1,
         'FishPig_WordPress' => 1,
         'Magebit_Attribute' => 1,
         'PayPal_Braintree' => 1,

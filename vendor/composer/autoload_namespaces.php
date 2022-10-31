@@ -12,6 +12,7 @@ return array(
     'OAuth\\Unit' => array($vendorDir . '/lusitanian/oauth/tests'),
     'OAuth' => array($vendorDir . '/lusitanian/oauth/src'),
     'Mustache' => array($vendorDir . '/mustache/mustache/src'),
+    'Mailchimp' => array($vendorDir . '/ebizmarts/mailchimp-lib/src'),
     'MagentoHackathon\\Composer\\Magento' => array($vendorDir . '/magento/magento-composer-installer/src'),
     'Less' => array($vendorDir . '/wikimedia/less.php/lib'),
     'JShrink' => array($vendorDir . '/tedivm/jshrink/src'),

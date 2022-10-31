@@ -376,6 +376,17 @@
             'aliases' => array(),
             'dev_requirement' => true,
         ),
+        'ebizmarts/mailchimp-lib' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '759baaaa4c402e57406a7b458a20a73f74171068',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../ebizmarts/mailchimp-lib',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => false,
+        ),
         'elasticsearch/elasticsearch' => array(
             'pretty_version' => 'v7.16.0',
             'version' => '7.16.0.0',
@@ -3991,6 +4002,15 @@
             'reference' => '2381396d2a9a528be2f367b5ce2dddf650eac1d0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../magento/zendframework1',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'mailchimp/mc-magento2' => array(
+            'pretty_version' => '103.4.49',
+            'version' => '103.4.49.0',
+            'reference' => '0f3f6037d2d7f82856fcaf5c69c51ea15a7da9d7',
+            'type' => 'magento2-module',
+            'install_path' => __DIR__ . '/../mailchimp/mc-magento2',
             'aliases' => array(),
             'dev_requirement' => false,
         ),

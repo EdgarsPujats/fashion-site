@@ -536,6 +536,8 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/magento/module-admin-adobe-ims" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/weltpixel/module-google-tag-manager-free" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/weltpixel/m2-weltpixel-backend" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/ebizmarts/mailchimp-lib" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mailchimp/mc-magento2" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

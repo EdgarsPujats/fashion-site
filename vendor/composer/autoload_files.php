@@ -489,5 +489,6 @@ return array(
     '1506602cad1f917a0661dc7b3038b155' => $vendorDir . '/weltpixel/m2-weltpixel-backend/registration.php',
     '25e2bff02de9cc90830af8c19eb07261' => $vendorDir . '/weltpixel/module-google-tag-manager-free/registration.php',
     'eda65932675b68b5aee4503e0762d64d' => $vendorDir . '/magento/magento2-functional-testing-framework/src/Magento/FunctionalTestingFramework/_bootstrap.php',
+    '62008ed0ff26c9aa9e7ca9697420b61d' => $vendorDir . '/mailchimp/mc-magento2/registration.php',
     'b4cf39431a4b949eea8aa69ebb3d39da' => $baseDir . '/app/etc/NonComposerComponentRegistration.php',
 );
